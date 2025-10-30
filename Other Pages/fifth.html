@@ -1,0 +1,2468 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Youtube Page (5th page) </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./../Project Images/Second page Images/Youtube premium img.svg">
+
+</head>
+
+
+<body class="bg-white text-[#0f0f0f] font-[Roboto,Arial,sans-serif] overflow-x-clip">
+
+    <!-- Header Start -->
+    <header
+        class="w-full px-6 pt-2 flex justify-between items-center fixed top-0 left-0 z-50 h-14 bg-white cursor-pointer">
+
+
+        <!-- Menu & YouTube logo -->
+        <div class="flex gap-5 items-center">
+            <img id="menu-icon" class="hover:bg-gray-300 rounded-full p-2 cursor-pointer"
+                src="./../Project Images/First Page Imgs/dehaze_29dp_030303_FILL0_wght400_GRAD0_opsz24.svg" alt="Menu">
+            <img class="flex-shrink-0 max-[363px]:w-[120px]" src="./../Project Images/First Page Imgs/Youtube logo.svg"
+                alt="YouTube Logo">
+
+        </div>
+
+
+        <!-- Search Bar and Icon -->
+        <div
+            class="flex justify-center items-center gap-2 w-full px-4 ml-[120px] max-[915px]:ml-[90px] max-[656px]:hidden">
+            <div class="flex items-center  w-[75%]">
+                <input type="search" placeholder="Search"
+                    class="w-full border border-[#c6c6c6] outline-none focus:border-blue-400 rounded-l-full px-4 py-2" />
+                <button class="border border-[#c6c6c6] bg-[#f8f8f8] rounded-r-full px-4 py-2 focus:border-blue-400">
+                    <img src="./../Project Images/First Page Imgs/search icon.svg" alt="Search" class="w-8 h-6">
+                </button>
+            </div>
+            <img src="./../Project Images/First Page Imgs/Mic icon.svg" alt="Mic"
+                class="bg-[#f2f2f2] rounded-full p-2 w-10 h-10" />
+        </div>
+
+
+
+        <!-- Create and search show(on md) div-->
+        <div class="flex items-center justify-center gap-4 px-8">
+            <!-- search show on md screen -->
+            <div class="max-[656px]:flex items-center justify-center gap-2 mr-[5%]">
+                <img class=" max-[428px]:w-[90px] max-[428px]:ml-[70px]"
+                    src="./../Project Images/First Page Imgs/search icon.svg" alt="">
+                <img class="max-[428px]:hidden " src="./../Project Images/First Page Imgs/Mic icon.svg" alt="">
+            </div>
+
+            <div
+                class="flex gap-1 items-center justify-center bg-[#f2f2f2] hover:bg-gray-300  rounded-full px-7 text-center max-[656px]:px-5">
+                <img src="./../Project Images/First Page Imgs/plus icon.svg" alt="">
+                <p class="text-center font-[500] text-[14px] text-[#0f0f0f] leading-[36px]">Create</p>
+            </div>
+
+            <!-- Bell Icon -->
+            <img class="max-[409px]:hidden" src="./../Project Images/Second page Images/bell icon.svg" alt="">
+            <p class="bg-[#465a65] text-[white] px-3 py-1.5 rounded-full text-center">H</p>
+        </div>
+    </header>
+
+
+
+
+
+
+    <!-- Body{Side Bar and Video Section} -->
+
+    <!-- Parent Body -->
+
+    <div class="flex items-center pt-14">
+
+        <!-- Side bar div -->
+        <aside id="menu"
+            class="w-[290px] fixed top-14 left-0 hover:h-[calc(100vh-56px)] overflow-y-auto pl-5 mt-5 z-40 max-[1312px]:hidden">
+
+
+            <!-- Home Div -->
+            <div class="flex flex-col gap cursor-pointer">
+
+                <div class="flex items-center gap-5 bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/house icon.svg" alt="Home">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[600] text-[#0f0f0f]">Home</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-5 px-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg  ">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/download (2).svg"
+                            alt="Shorts Icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[500] text-[#0f0f0f]">Shorts</p>
+                    </div>
+                </div>
+
+
+                <div class="flex items-center gap-5 px-3 pb-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Subscription icon.svg"
+                            alt="sub icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Subscriptions</p>
+                    </div>
+                    <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-2 w-full">
+            </div>
+
+
+
+
+
+
+            <!-- You Section in side bar -->
+            <div class="px-3 cursor-pointer">
+
+                <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                    <div>
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-">You</p>
+                    </div>
+
+                    <div>
+                        <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- Items under You -->
+                <div class="flex flex-col">
+
+                    <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-5 mx-auto" src="./../Project Images/First Page Imgs/history icon.svg"
+                                alt="History icon">
+                        </div>
+
+                        <div>
+                            <a class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]"
+                                href="./../Other Pages/third.html">History</a>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/playlist icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Playlists</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/ur videos icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Your Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Watch icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Watch Later</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Like Icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Liked Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/Download icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Downloads</p>
+                        </div>
+                    </div>
+                    <hr class="border-t border-gray-300 my-2 w-full">
+                </div>
+
+
+
+
+
+                <!-- Subscription Section -->
+                <div class="px-3 cursor-pointer">
+
+                    <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                        <div>
+                            <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550]">Subscriptions
+                            <p>
+                        </div>
+
+                        <div>
+                            <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <!-- Items under Subscription Section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-4 pt-2 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/DarkCode img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px]  text-[#0f0f0f]">DarkCode</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Web dev simplify png.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Web Dev Simplifi..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/African Tales img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">African Tales by Aya</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Sqi img.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">SQI Studios..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/netninja img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Net Ninja</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/imgi_83_v9Db-cP2Hc2YmMjJ9PvamQNe9Y5vx-8gf_JjjvGh9aYq299198Gay7tmJyTR9PcvkXNYxzcS_w=s68-c-k-c0x00ffffff-no-rj.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Yawa Skits</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                            <div class="flex items-center gap-4">
+                                <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                                <div>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Show More</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+
+                    </div>
+                </div>
+
+
+
+                <!-- Explore Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div>
+                        <p
+                            class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] px-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            Explore
+                        <p>
+                    </div>
+
+                    <!-- items under explore -->
+
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Music icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Gaming icon.svg" alt="">
+                            </div>
+                            <div>
+                                <a class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]"
+                                    href="./../Other Pages/fourth.html">Gaming</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/news icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">News</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Sports Icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Sports</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+                </div>
+
+
+
+                <!-- More From Youtube Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div class="hover:bg-[#f2f2f2] px-3 rounded-lg">
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-3">More From Youtube
+                        <p>
+                    </div>
+
+
+                    <!-- items under more from utube section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube premium img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Premium</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Studio</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Kids img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Kids</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+                    <!-- Settings Section -->
+                    <div class="flex flex-col cursor-pointer">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Settings icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Settings</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Report icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Report history</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Help icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Help</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Feedback icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Send Feedback</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+
+                    <!-- About Section -->
+                    <div class="text-[13px] font-[500] pt-3 leading-[18px] text-[#606060] cursor-pointer">
+                        <a href="">About</a>
+                        <a class="ml-3" href="">Press</a>
+                        <a class="ml-3" href="">Copyright</a>
+
+                        <div>
+                            <a class="" href="">Contact Us</a>
+                            <a class="ml-3" href="">Creators</a>
+                            <a class="ml-3" href="">Advertise</a>
+                        </div>
+
+                        <div>
+                            <a class="" href="">Developers</a>
+                        </div>
+
+                        <!-- Terms and Policy Section -->
+                        <div class="text-[13px] font-[500] leading-[18px] text-[#606060] mt-4">
+                            <a href="">Terms</a>
+                            <a class="ml-3" href="">Privacy</a>
+                            <a class="ml-3" href="">Policy & Safety</a>
+
+                            <div class="mt-1">
+                                <a class="" href="">How Youtube Works</a>
+                            </div>
+
+                            <div class="mt-1">
+                                <a class="" href="">Test new features</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-[12px] font-[400] leading-[18px] text-[#909090] mt-6 pb-8">© 2025 Google LLC</p>
+                    </div>
+        </aside>
+
+
+        <!-- Aside for Medium Screen -->
+        <aside class="w-[80px]  fixed top-14 left-2 text-center mt-5 hidden max-[1312px]:block">
+            <div class="flex flex-col items-center gap-8 max-[791px]:hidden">
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/house icon.svg" alt="Home">
+                    <p class="text-[10px] leading-[14px]">Home</p>
+                </div>
+
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/reels icon.svg" alt="Shorts">
+                    <p class="text-[10px] leading-[14px]">Shorts</p>
+                </div>
+
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/Sub icon.svg" alt="Subscriptions">
+                    <p class="text-[10px] leading-[14px]">Subscriptions</p>
+                </div>
+
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/download.svg" alt="You">
+                    <p class="text-[10px] leading-[14px]">You</p>
+                </div>
+        </aside>
+
+
+
+
+
+
+
+
+        <!-- Aside for small screen onclick -->
+        <aside id="sideMenu"
+            class="hidden fixed top-0 left-0 h-full w-60 bg-white z-50 max-[790px]:transform  transition-transform duration-300 lg:hidden">
+
+
+            <!-- Home Div -->
+            <div class="flex gap-5 items-center">
+                <img id="menu-icon" class="hover:bg-gray-300 rounded-full p-2 cursor-pointer"
+                    src="./../Project Images/First Page Imgs/dehaze_29dp_030303_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt="Menu">
+                <img class="flex-shrink-0 max-[363px]:w-[120px]"
+                    src="./../Project Images/First Page Imgs/Youtube logo.svg" alt="YouTube Logo">
+
+            </div>
+            <div class="flex flex-col gap cursor-pointer">
+
+                <div class="flex items-center gap-5 bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/house icon.svg" alt="Home">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[600] text-[#0f0f0f]">Home</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-5 px-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg  ">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/download (2).svg"
+                            alt="Shorts Icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[500] text-[#0f0f0f]">Shorts</p>
+                    </div>
+                </div>
+
+
+                <div class="flex items-center gap-5 px-3 pb-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Subscription icon.svg"
+                            alt="sub icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Subscriptions</p>
+                    </div>
+                    <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-2 w-full">
+            </div>
+
+
+
+
+
+
+            <!-- You Section in side bar -->
+            <div class="px-3 cursor-pointer">
+
+                <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                    <div>
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-">You</p>
+                    </div>
+
+                    <div>
+                        <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- Items under You -->
+                <div class="flex flex-col">
+
+                    <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-5 mx-auto" src="./../Project Images/First Page Imgs/history icon.svg"
+                                alt="History icon">
+                        </div>
+
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">History</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/playlist icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Playlists</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/ur videos icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Your Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Watch icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Watch Later</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Like Icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Liked Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/Download icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Downloads</p>
+                        </div>
+                    </div>
+                    <hr class="border-t border-gray-300 my-2 w-full">
+                </div>
+
+
+
+
+
+                <!-- Subscription Section -->
+                <div class="px-3 cursor-pointer">
+
+                    <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                        <div>
+                            <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550]">Subscriptions
+                            <p>
+                        </div>
+
+                        <div>
+                            <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <!-- Items under Subscription Section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-4 pt-2 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/DarkCode img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px]  text-[#0f0f0f]">DarkCode</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Web dev simplify png.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Web Dev Simplifi..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/African Tales img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">African Tales by Aya</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Sqi img.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">SQI Studios..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/netninja img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Net Ninja</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/imgi_83_v9Db-cP2Hc2YmMjJ9PvamQNe9Y5vx-8gf_JjjvGh9aYq299198Gay7tmJyTR9PcvkXNYxzcS_w=s68-c-k-c0x00ffffff-no-rj.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Yawa Skits</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                            <div class="flex items-center gap-4">
+                                <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                                <div>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Show More</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+
+                    </div>
+                </div>
+
+
+
+                <!-- Explore Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div>
+                        <p
+                            class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] px-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            Explore
+                        <p>
+                    </div>
+
+                    <!-- items under explore -->
+
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Music icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Gaming icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Gaming</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/news icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">News</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Sports Icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Sports</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+                </div>
+
+
+
+                <!-- More From Youtube Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div class="hover:bg-[#f2f2f2] px-3 rounded-lg">
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-3">More From Youtube
+                        <p>
+                    </div>
+
+
+                    <!-- items under more from utube section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube premium img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Premium</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Studio</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Kids img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Kids</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+                    <!-- Settings Section -->
+                    <div class="flex flex-col cursor-pointer">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Settings icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Settings</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Report icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Report history</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Help icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Help</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Feedback icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Send Feedback</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+
+                    <!-- About Section -->
+                    <div class="text-[13px] font-[500] pt-3 leading-[18px] text-[#606060] cursor-pointer">
+                        <a href="">About</a>
+                        <a class="ml-3" href="">Press</a>
+                        <a class="ml-3" href="">Copyright</a>
+
+                        <div>
+                            <a class="" href="">Contact Us</a>
+                            <a class="ml-3" href="">Creators</a>
+                            <a class="ml-3" href="">Advertise</a>
+                        </div>
+
+                        <div>
+                            <a class="" href="">Developers</a>
+                        </div>
+
+                        <!-- Terms and Policy Section -->
+                        <div class="text-[13px] font-[500] leading-[18px] text-[#606060] mt-4">
+                            <a href="">Terms</a>
+                            <a class="ml-3" href="">Privacy</a>
+                            <a class="ml-3" href="">Policy & Safety</a>
+
+                            <div class="mt-1">
+                                <a class="" href="">How Youtube Works</a>
+                            </div>
+
+                            <div class="mt-1">
+                                <a class="" href="">Test new features</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-[12px] font-[400] leading-[18px] text-[#909090] mt-6 pb-8">© 2025 Google LLC</p>
+                    </div>
+        </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- MAIN SECTION omo!!!🥹😩  -->
+
+
+
+
+
+        <main class="flex-2 ml-[320px] p-6 max-[1312px]:ml-[150px] max-[790px]:ml-[80px] max-[703px]:ml-[20px]">
+
+            <div class="relative top-[-30px] w-full h-[500px]">
+                <div class="relative  w-full h-[500px] overflow-hidden">
+                    <video class="w-full h-full object-cover"
+                        src="./../Project Images/Second page Images/Video Imgs/Ayra Starr, Rema - Who’s Dat Girl.mp4"
+                        autoplay muted loop></video>
+                </div>
+
+
+                <!-- Overlay text -->
+                <div
+                    class="absolute inset-0 flex flex-col justify-center items-start  pl-10 text-white text-center bg-black/30">
+                    <p class="font-[400] text-[18px] leading-[23px] ">Ayra Starr • 6.3M views • 7 days ago</p>
+                    <h1 class="text-[48px] font-[500] leading-[57px] pt-10 ">Ayra Starr, Rema - Who’s Dat Girl</h1>
+                </div>
+            </div>
+
+
+            <!-- Music Div -->
+            <div class="bg-[#f2f2f2] mt-[-30px]">
+
+                <div class="flex items-center justify-between px-3">
+
+                    <div class="flex items-center gap-6 pt-4">
+                        <div>
+                            <img class="rounded-full" src="./../Project Images/Second page Images/Video Imgs/M img.jpg"
+                                alt="">
+                        </div>
+
+                        <div>
+                            <p class="font-[400] text-[24px] leading-[32px]">Music</p>
+                            <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">125M Subscribers</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p
+                            class="text-[14px] font-[500] leading0[36px] bg-black text-white inline px-4 py-3 rounded-[20px]">
+                            Subscribe</p>
+                    </div>
+                </div>
+
+                <!-- Post and Home part -->
+                <div class="flex gap-4 px-6 pt-7">
+                    <div class="border-b border-b-2 border-black"><p class="text-[16px] font-[500] pb-1 leading-[22px]">Home</p></div>
+                    <p class="text-[16px] font-[500] leading-[22px] text-[#606060]">Posts</p>
+                </div>
+            </div>
+
+
+
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-8">Today's biggest hits</p>
+
+            </div>
+
+
+            <!-- 1st video -->
+            <div
+                class="mt-2 grid pb-5 grid-cols-4 max-[1105px]:grid-cols-3 max-[900px]:grid-cols-2 max-[450px]:grid-cols-1 gap-4">
+
+                <!-- 1st MAIN VIDEO ROW -->
+
+                <!-- 1st video -->
+                <div>
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Afrobeat img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    Afrobeats Now
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                                    The biggest Afrobeats hits, all in one place.
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Second Video -->
+                <div class="max-[450px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Amapiano img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    Amapiano Trip
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                                    The biggest Afrobeats hits, all in one place.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!--  Third Video-->
+                <div class="max-[900px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Flavor img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    Eastern Flavour
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                                    Enjoy hits from East Africa
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 4th video -->
+                <div class="max-[1105px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Hitlist img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    The Hit List
+                                </p>
+                                <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                    The home of today's biggest and hottest hits
+                                </p>
+                                <p
+                                    class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                    #top #hits #music
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- Show More -->
+            <!-- <div class="flex items-center justify-center w-[40%] mx-auto rounded-full bg-gray-100  mt-4">
+            <button class="">Show more</button>
+                <div>
+                    <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                </div>
+  <div class="h-px bg-gray-300 flex-1"></div>
+
+            </div> -->
+
+            <div class="flex items-center justify-center gap-4my-6">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+                <button
+                    class="text-[#606060] font-[500] rounded-full px-[90px] py-1 mx-auto rounded-full border  mt-4 hover:bg-gray-200">Show
+                    more</button>
+                    <img src="./../Project Images/Second page Images/down arrow ion.svg" alt="">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+            </div>
+
+
+
+
+            <!-- 2nd Part video -->
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-8">New and Trending</p>
+
+            </div>
+
+            <div
+                class="mt-2 grid pb-5 grid-cols-4 max-[1105px]:grid-cols-3 max-[900px]:grid-cols-2 max-[450px]:grid-cols-1 gap-4">
+
+                <!-- 1st MAIN VIDEO ROW -->
+
+                <!-- 1st video -->
+                <div>
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Released Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    RELEASED
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    The hottest new songs served up fresh to you every Friday.
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Second Video -->
+                <div class="max-[450px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Wave img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    Mzansi Wave
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                                    Mzansi through the Years, Mzansi All the way! bhiyozela uMzansi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!--  Third Video-->
+                <div class="max-[900px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/AfroHouse Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    Afro-House Sensations
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                                    Free yourself and dance with the ancestors to these soulful rythms.
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 4th video -->
+                <div class="max-[1105px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Checklist Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    Checklist
+                                </p>
+                                <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                    Top Nigerian recurrent and enduring hits.
+                                </p>
+                                <p
+                                    class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                    #top #hits #music
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Show More -->
+            <!-- <div class="flex items-center justify-center w-[40%] mx-auto rounded-full bg-gray-100  mt-4">
+
+
+                <button class="text-[#606060] font-[500] py-2 px-4 rounded-md hover:bg-[#f0f0f0]">Show more</button>
+
+                <div>
+                    <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                </div>
+            </div> -->
+             <div class="flex items-center justify-center gap-4my-6">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+                <button
+                    class="text-[#606060] font-[500] rounded-full px-[90px] py-1 mx-auto rounded-full border  mt-4 hover:bg-gray-200">Show
+                    more</button>
+                    <img src="./../Project Images/Second page Images/down arrow ion.svg" alt="">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+            </div>
+
+
+
+
+
+
+
+            <!-- 3rd part video -->
+            <div>
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-8">Party Music</p>
+
+            </div>
+
+            <div
+                class="mt-2 grid pb-5 grid-cols-4 max-[1105px]:grid-cols-3 max-[900px]:grid-cols-2 max-[450px]:grid-cols-1 gap-4">
+
+                <!-- 1st MAIN VIDEO ROW -->
+
+                <!-- 1st video -->
+                <div>
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Asake img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    OWANBE
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    For the love of culture, party, and enjoyment! #choplife
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Second Video -->
+                <div class="max-[450px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Rema Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    Afrobeats Party
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                                    Ain't no party like a Lagos Party. Soundtracking your Afrobeats party with hits
+                                    only!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!--  Third Video-->
+                <div class="max-[900px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/P square img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    Throwback Naija Party
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                                    Early contemporaray Naija party hits.
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 4th video -->
+                <div class="max-[1105px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/AfroHouse Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    Afro-House Sensations
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                                    Free yourself and dance with the ancestors to these soulful rythms.
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Show More -->
+            <!-- <div class="flex items-center justify-center w-[40%] mx-auto rounded-full bg-gray-100  mt-4">
+
+
+                <button class="text-[#606060] font-[500] py-2 px-4 rounded-md hover:bg-[#f0f0f0]">Show more</button>
+
+                <div>
+                    <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                </div>
+            </div> -->
+
+             <div class="flex items-center justify-center gap-4my-6">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+                <button
+                    class="text-[#606060] font-[500] rounded-full px-[90px] py-1 mx-auto rounded-full border  mt-4 hover:bg-gray-200">Show
+                    more</button>
+                    <img src="./../Project Images/Second page Images/down arrow ion.svg" alt="">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+            </div>
+            </div>
+
+
+
+
+            <!-- 4th Video Part -->
+     <div>
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-8">Party Music</p>
+
+            </div>
+
+            <div
+                class="mt-2 grid pb-5 grid-cols-4 max-[1105px]:grid-cols-3 max-[900px]:grid-cols-2 max-[450px]:grid-cols-1 gap-4">
+
+                <!-- 1st MAIN VIDEO ROW -->
+
+                <!-- 1st video -->
+                <div>
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/AfroGospel Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                   Afro Gospel Hotlist
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                           Top African Gospel hits
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Second Video -->
+                <div class="max-[450px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Praise Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                   Praise and Worship Playlist
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                                Be encouraged and strengthened by the biggest and best worship songs of today.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!--  Third Video-->
+                <div class="max-[900px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Gospel img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                  Gospel Hotlist
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1 line-clamp-3">
+                                Today's top gospel puts a modern spin on the fervor of traditional gospel, without losing an ounce of its passion or joy.
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 4th video -->
+                <div class="max-[1105px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Timeless img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                 Timeless Gospel Hits
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                                  Gospel music's formidable classics
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Show More -->
+            <!-- <div class="flex items-center justify-center w-[40%] mx-auto rounded-full bg-gray-100  mt-4">
+
+
+                <button class="text-[#606060] font-[500] py-2 px-4 rounded-md hover:bg-[#f0f0f0]">Show more</button>
+
+                <div>
+                    <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                </div>
+            </div> -->
+
+             <div class="flex items-center justify-center gap-4my-6">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+                <button
+                    class="text-[#606060] font-[500] rounded-full px-[90px] py-1 mx-auto rounded-full border  mt-4 hover:bg-gray-200">Show
+                    more</button>
+                    <img src="./../Project Images/Second page Images/down arrow ion.svg" alt="">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+            </div>
+            </div>
+
+
+
+
+
+
+
+                        <!-- 5th Video Part -->
+             <div>
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-8">Taking it easy</p>
+
+            </div>
+
+            <div
+                class="mt-2 grid pb-5 grid-cols-4 max-[1105px]:grid-cols-3 max-[900px]:grid-cols-2 max-[450px]:grid-cols-1 gap-4">
+
+                <!-- 1st MAIN VIDEO ROW -->
+
+                <!-- 1st video -->
+                <div>
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Tiwa Savage Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                Slow Down
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                       Pump the breaks, breathe in, breathe out,.....slow down
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Second Video -->
+                <div class="max-[450px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Soul img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                               Rythm and Soul
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                              Good old Nigerian R&B / soul
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!--  Third Video-->
+                <div class="max-[900px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Stripped img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                  Gospel Hotlist
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1 line-clamp-3">
+                                Bringing through some of Nigeria's finest songs in acoustic versions and live performances. Including features.
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 4th video -->
+                <div class="max-[1105px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Slower Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                 Go Slower
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                                  Take a drive with this lush, eclectic mix of electronic, rap and R&B jams -- old and new.
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Show More -->
+            <!-- <div class="flex items-center justify-center w-[40%] mx-auto rounded-full bg-gray-100  mt-4">
+
+
+                <button class="text-[#606060] font-[500] py-2 px-4 rounded-md hover:bg-[#f0f0f0]">Show more</button>
+
+                <div>
+                    <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                </div>
+            </div> -->
+
+             <div class="flex items-center justify-center gap-4my-6">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+                <button
+                    class="text-[#606060] font-[500] rounded-full px-[90px] py-1 mx-auto rounded-full border  mt-4 hover:bg-gray-200">Show
+                    more</button>
+                    <img src="./../Project Images/Second page Images/down arrow ion.svg" alt="">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+
+                  <!-- 7th Video Part -->
+             <div>
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-8">Working Out</p>
+
+            </div>
+
+            <div
+                class="mt-2 grid pb-5 grid-cols-4 max-[1105px]:grid-cols-3 max-[900px]:grid-cols-2 max-[450px]:grid-cols-1 gap-4">
+
+                <!-- 1st MAIN VIDEO ROW -->
+
+                <!-- 1st video -->
+                <div>
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Beat img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                Afrobeats Workout
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                       Only bangers in here. Rhythmic & uptempo Afrobeats to get you going.
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Second Video -->
+                <div class="max-[450px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Ayra Star Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                               Afro Easy Workout
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                              Easy, mid-tempo music for your lighter workout sessions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!--  Third Video-->
+                <div class="max-[900px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Homemade img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                 Homemade & Heavy
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1 line-clamp-3">
+                              A fine mix of throwback & contemporary but banging Nigerian, African Hip Hop to boost your energy!
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 4th video -->
+                <div class="max-[1105px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Cardio Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                Cardio Hip Hop
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1 line-clamp-3">
+                                This collection of heart-thumping hip hop beats will help you reach the next level in your cardio workouts. #hiphop #energetic #pumpup
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Show More -->
+            <!-- <div class="flex items-center justify-center w-[40%] mx-auto rounded-full bg-gray-100  mt-4">
+
+
+                <button class="text-[#606060] font-[500] py-2 px-4 rounded-md hover:bg-[#f0f0f0]">Show more</button>
+
+                <div>
+                    <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                </div>
+            </div> -->
+
+             <div class="flex items-center justify-center gap-4my-6">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+                <button
+                    class="text-[#606060] font-[500] rounded-full px-[90px] py-1 mx-auto rounded-full border  mt-4 hover:bg-gray-200">Show
+                    more</button>
+                    <img src="./../Project Images/Second page Images/down arrow ion.svg" alt="">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+            </div>
+            </div>
+
+
+
+
+
+
+            <div>
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-8">Throwbacks</p>
+
+            </div>
+
+            <div
+                class="mt-2 grid pb-5 grid-cols-4 max-[1105px]:grid-cols-3 max-[900px]:grid-cols-2 max-[450px]:grid-cols-1 gap-4">
+
+                <!-- 1st MAIN VIDEO ROW -->
+
+                <!-- 1st video -->
+                <div>
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Beat img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                               Naija 2010s Hits
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                       Naija's biggest Afrobeats hits between 2010 & 2019.
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Second Video -->
+                <div class="max-[450px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Ayra Star Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                Naija 2000s Hits
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1">
+                           Showcasing the dawn of contemporary Nigerian music from 2000 to 2009.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!--  Third Video-->
+                <div class="max-[900px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Homemade img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                               Naija 90s Hits
+
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1 line-clamp-3">
+                           Some of Nigeria's biggest songs through the 90's.
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 4th video -->
+                <div class="max-[1105px]:hidden">
+                    <!-- Main thumbnail -->
+                    <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#afafaf]">
+                        <div class="relative rounded-lg overflow-hidden border-t-[3px] border-[#606060]">
+                            <div class="relative rounded-lg overflow-hidden border-t-[3px] border-gray-200">
+                                <img src="./../Project Images/Second page Images/Video Imgs/Cardio Img.jpg"
+                                    alt="Music thumbnail" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                             The Hits: 80s & Beyond Nigeria
+                                </p>
+
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1 line-clamp-3">
+                               Exploring the very early days of Nigerian music, running through sounds of the 80s, 70s & beyond.
+                                </p>
+
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Show More -->
+            <!-- <div class="flex items-center justify-center w-[40%] mx-auto rounded-full bg-gray-100  mt-4">
+
+
+                <button class="text-[#606060] font-[500] py-2 px-4 rounded-md hover:bg-[#f0f0f0]">Show more</button>
+
+                <div>
+                    <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                </div>
+            </div> -->
+
+             <div class="flex items-center justify-center gap-4my-6">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+                <button
+                    class="text-[#606060] font-[500] rounded-full px-[90px] py-1 mx-auto rounded-full border  mt-4 hover:bg-gray-200">Show
+                    more</button>
+                    <img src="./../Project Images/Second page Images/down arrow ion.svg" alt="">
+                <div class="h-px bg-gray-300 flex-1 mt-4"></div>
+            </div>
+            </div>
+
+
+
+
+
+            <!-- Last Video Part -->
+                  <div>
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-8">New Music Videos</p>
+            </div>
+
+            <div class="grid grid-cols-3 gap-5">
+                <!-- 1st video -->
+              <div>
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Real Madrid.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p
+                                        class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2 uppercase">
+                                        MOLIY ft. Tyla - "Body Go" (official Music Video)
+                                    </p>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1 uppercase">
+                                       MOLIY and Tyla
+                                    </p>
+                                    <p
+                                        class="text-[14px] leading-[20px] font-[400] text-[#606060] max-[1152px]:whitespace-nowrap">
+                                        546k views · 8 days ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+            </div>
+            </div>
+
+
+<!-- 2nd video -->
+              <div>
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Real Madrid.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p
+                                        class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2 uppercase">
+                                       Odeal - Miami (Official Music Video) ft Leon Thomas
+                                    </p>
+                                     <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1 uppercase">
+                                       Odean and Leon Thomas
+                                    </p>
+                                    <p
+                                        class="text-[14px] leading-[20px] font-[400] text-[#606060] max-[1152px]:whitespace-nowrap">
+                                        1M views · 12 days ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+            </div>
+            </div>
+
+
+
+
+            <!-- 3rd video -->
+             <div>
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Real Madrid.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p
+                                        class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2 uppercase">
+                                        CIZA - Isaka ||(6am) [with Tems, Omah Lay, Thukuthela, JAZZWORLD] (Official Visualizer)
+                                    </p>
+                                     <p class="text-[14px] font-[400] leading-[20px] text-[#606060] pt-1 uppercase">
+                                     CIZA
+                                    </p>
+                                    <p
+                                        class="text-[14px] leading-[20px] font-[400] text-[#606060] max-[1152px]:whitespace-nowrap">
+                                        1.1M views · 12 days ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+            </div>
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class=" text-center text-gray-500 w-full mt-[px]"> &copy; 2025 YouTube Clone by Husinat Azeez</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const sideMenu = document.getElementById('sideMenu');
+        console.log();
+
+        menuIcon.addEventListener('click', () => {
+            // -translate-x-full
+            if (sideMenu.classList.contains('hidden')) {
+                sideMenu.classList.remove('hidden');
+                console.log('off');
+
+            } else {
+                sideMenu.classList.add('hidden');
+                console.log('on');
+
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>

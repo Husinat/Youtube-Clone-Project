@@ -1,0 +1,2489 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Youtube Page (4th page) </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./../Project Images/Second page Images/Youtube premium img.svg">
+
+</head>
+
+
+<body class="bg-white text-[#0f0f0f] font-[Roboto,Arial,sans-serif] overflow-x-clip">
+
+    <!-- Header Start -->
+    <header
+        class="w-full px-6 pt-2 flex justify-between items-center fixed top-0 left-0 z-50 h-14 bg-white cursor-pointer">
+
+
+        <!-- Menu & YouTube logo -->
+        <div class="flex gap-5 items-center">
+            <img id="menu-icon" class="hover:bg-gray-300 rounded-full p-2 cursor-pointer"
+                src="./../Project Images/First Page Imgs/dehaze_29dp_030303_FILL0_wght400_GRAD0_opsz24.svg" alt="Menu">
+            <img class="flex-shrink-0 max-[363px]:w-[120px]" src="./../Project Images/First Page Imgs/Youtube logo.svg"
+                alt="YouTube Logo">
+
+        </div>
+
+
+        <!-- Search Bar and Icon -->
+        <div
+            class="flex justify-center items-center gap-2 w-full px-4 ml-[120px] max-[915px]:ml-[90px] max-[656px]:hidden">
+            <div class="flex items-center  w-[75%]">
+                <input type="search" placeholder="Search"
+                    class="w-full border border-[#c6c6c6] outline-none focus:border-blue-400 rounded-l-full px-4 py-2" />
+                <button class="border border-[#c6c6c6] bg-[#f8f8f8] rounded-r-full px-4 py-2 focus:border-blue-400">
+                    <img src="./../Project Images/First Page Imgs/search icon.svg" alt="Search" class="w-8 h-6">
+                </button>
+            </div>
+            <img src="./../Project Images/First Page Imgs/Mic icon.svg" alt="Mic"
+                class="bg-[#f2f2f2] rounded-full p-2 w-10 h-10" />
+        </div>
+
+
+
+        <!-- Create and search show(on md) div-->
+        <div class="flex items-center justify-center gap-4 px-8">
+            <!-- search show on md screen -->
+            <div class="max-[656px]:flex items-center justify-center gap-2 mr-[5%]">
+                <img class=" max-[428px]:w-[90px] max-[428px]:ml-[70px]"
+                    src="./../Project Images/First Page Imgs/search icon.svg" alt="">
+                <img class="max-[428px]:hidden " src="./../Project Images/First Page Imgs/Mic icon.svg" alt="">
+            </div>
+
+            <img class="border-b border-black" src="./../Project Images/Second page Images/Video Imgs/Up arrow img.svg"
+                alt="">
+
+
+            <!-- Bell Icon -->
+            <img class="max-[409px]:hidden" src="./../Project Images/Second page Images/bell icon.svg" alt="">
+            <p class="bg-[#465a65] text-[white] px-3 py-1.5 rounded-full text-center">H</p>
+        </div>
+    </header>
+
+
+
+
+
+
+    <!-- Body{Side Bar and Video Section} -->
+
+    <!-- Parent Body -->
+
+    <div class="flex items-center pt-14">
+
+        <!-- Side bar div -->
+        <aside id="menu"
+            class="w-[290px] fixed top-14 left-0  hover:h-[calc(100vh-56px)] overflow-y-auto pl-5 mt-5 z-40 max-[1312px]:hidden">
+
+
+            <!-- Home Div -->
+            <div class="flex flex-col gap cursor-pointer">
+
+                <div class="flex items-center gap-5 bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/house icon.svg" alt="Home">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[600] text-[#0f0f0f]">Home</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-5 px-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg  ">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/download (2).svg"
+                            alt="Shorts Icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[500] text-[#0f0f0f]">Shorts</p>
+                    </div>
+                </div>
+
+
+                <div class="flex items-center gap-5 px-3 pb-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Subscription icon.svg"
+                            alt="sub icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Subscriptions</p>
+                    </div>
+                    <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-2 w-full">
+            </div>
+
+
+
+
+
+
+            <!-- You Section in side bar -->
+            <div class="px-3 cursor-pointer">
+
+                <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                    <div>
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-">You</p>
+                    </div>
+
+                    <div>
+                        <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- Items under You -->
+                <div class="flex flex-col">
+
+                    <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-5 mx-auto" src="./../Project Images/First Page Imgs/history icon.svg"
+                                alt="History icon">
+                        </div>
+
+                        <div>
+                            <a class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]"
+                                href="./../Other Pages/third.html">History</a>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/playlist icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Playlists</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/ur videos icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Your Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Watch icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Watch Later</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Like Icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Liked Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/Download icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Downloads</p>
+                        </div>
+                    </div>
+                    <hr class="border-t border-gray-300 my-2 w-full">
+                </div>
+
+
+
+
+
+                <!-- Subscription Section -->
+                <div class="px-3 cursor-pointer">
+
+                    <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                        <div>
+                            <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550]">Subscriptions
+                            <p>
+                        </div>
+
+                        <div>
+                            <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <!-- Items under Subscription Section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-4 pt-2 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/DarkCode img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px]  text-[#0f0f0f]">DarkCode</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Web dev simplify png.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Web Dev Simplifi..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/African Tales img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">African Tales by Aya</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Sqi img.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">SQI Studios..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/netninja img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Net Ninja</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/imgi_83_v9Db-cP2Hc2YmMjJ9PvamQNe9Y5vx-8gf_JjjvGh9aYq299198Gay7tmJyTR9PcvkXNYxzcS_w=s68-c-k-c0x00ffffff-no-rj.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Yawa Skits</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                            <div class="flex items-center gap-4">
+                                <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                                <div>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Show More</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+
+                    </div>
+                </div>
+
+
+
+                <!-- Explore Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div>
+                        <p
+                            class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] px-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            Explore
+                        <p>
+                    </div>
+
+                    <!-- items under explore -->
+
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Music icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Gaming icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Gaming</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/news icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">News</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Sports Icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Sports</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+                </div>
+
+
+
+                <!-- More From Youtube Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div class="hover:bg-[#f2f2f2] px-3 rounded-lg">
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-3">More From Youtube
+                        <p>
+                    </div>
+
+
+                    <!-- items under more from utube section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube premium img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Premium</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Studio</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Kids img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Kids</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+                    <!-- Settings Section -->
+                    <div class="flex flex-col cursor-pointer">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Settings icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Settings</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Report icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Report history</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Help icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Help</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Feedback icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Send Feedback</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+
+                    <!-- About Section -->
+                    <div class="text-[13px] font-[500] pt-3 leading-[18px] text-[#606060] cursor-pointer">
+                        <a href="">About</a>
+                        <a class="ml-3" href="">Press</a>
+                        <a class="ml-3" href="">Copyright</a>
+
+                        <div>
+                            <a class="" href="">Contact Us</a>
+                            <a class="ml-3" href="">Creators</a>
+                            <a class="ml-3" href="">Advertise</a>
+                        </div>
+
+                        <div>
+                            <a class="" href="">Developers</a>
+                        </div>
+
+                        <!-- Terms and Policy Section -->
+                        <div class="text-[13px] font-[500] leading-[18px] text-[#606060] mt-4">
+                            <a href="">Terms</a>
+                            <a class="ml-3" href="">Privacy</a>
+                            <a class="ml-3" href="">Policy & Safety</a>
+
+                            <div class="mt-1">
+                                <a class="" href="">How Youtube Works</a>
+                            </div>
+
+                            <div class="mt-1">
+                                <a class="" href="">Test new features</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-[12px] font-[400] leading-[18px] text-[#909090] mt-6 pb-8">© 2025 Google LLC</p>
+                    </div>
+        </aside>
+
+
+        <!-- Aside for Medium Screen -->
+        <aside class="w-[80px]  fixed top-14 left-2 text-center mt-5 hidden max-[1312px]:block">
+            <div class="flex flex-col items-center gap-8 max-[791px]:hidden">
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/house icon.svg" alt="Home">
+                    <p class="text-[10px] leading-[14px]">Home</p>
+                </div>
+
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/reels icon.svg" alt="Shorts">
+                    <p class="text-[10px] leading-[14px]">Shorts</p>
+                </div>
+
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/Sub icon.svg" alt="Subscriptions">
+                    <p class="text-[10px] leading-[14px]">Subscriptions</p>
+                </div>
+
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/download.svg" alt="You">
+                    <p class="text-[10px] leading-[14px]">You</p>
+                </div>
+        </aside>
+
+
+
+
+
+
+
+
+        <!-- Aside for small screen onclick -->
+        <aside id="sideMenu"
+            class="hidden fixed top-0 left-0 h-full w-60 bg-white z-50 max-[790px]:transform  transition-transform duration-300 lg:hidden">
+
+
+            <!-- Home Div -->
+            <div class="flex gap-5 items-center">
+                <img id="menu-icon" class="hover:bg-gray-300 rounded-full p-2 cursor-pointer"
+                    src="./../Project Images/First Page Imgs/dehaze_29dp_030303_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt="Menu">
+                <img class="flex-shrink-0 max-[363px]:w-[120px]"
+                    src="./../Project Images/First Page Imgs/Youtube logo.svg" alt="YouTube Logo">
+
+            </div>
+            <div class="flex flex-col gap cursor-pointer">
+
+                <div class="flex items-center gap-5 bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/house icon.svg" alt="Home">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[600] text-[#0f0f0f]">Home</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-5 px-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg  ">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/download (2).svg"
+                            alt="Shorts Icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[500] text-[#0f0f0f]">Shorts</p>
+                    </div>
+                </div>
+
+
+                <div class="flex items-center gap-5 px-3 pb-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Subscription icon.svg"
+                            alt="sub icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Subscriptions</p>
+                    </div>
+                    <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-2 w-full">
+            </div>
+
+
+
+
+
+
+            <!-- You Section in side bar -->
+            <div class="px-3 cursor-pointer">
+
+                <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                    <div>
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-">You</p>
+                    </div>
+
+                    <div>
+                        <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- Items under You -->
+                <div class="flex flex-col">
+
+                    <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-5 mx-auto" src="./../Project Images/First Page Imgs/history icon.svg"
+                                alt="History icon">
+                        </div>
+
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">History</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/playlist icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Playlists</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/ur videos icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Your Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Watch icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Watch Later</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Like Icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Liked Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/Download icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Downloads</p>
+                        </div>
+                    </div>
+                    <hr class="border-t border-gray-300 my-2 w-full">
+                </div>
+
+
+
+
+
+                <!-- Subscription Section -->
+                <div class="px-3 cursor-pointer">
+
+                    <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                        <div>
+                            <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550]">Subscriptions
+                            <p>
+                        </div>
+
+                        <div>
+                            <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <!-- Items under Subscription Section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-4 pt-2 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/DarkCode img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px]  text-[#0f0f0f]">DarkCode</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Web dev simplify png.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Web Dev Simplifi..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/African Tales img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">African Tales by Aya</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Sqi img.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">SQI Studios..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/netninja img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Net Ninja</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/imgi_83_v9Db-cP2Hc2YmMjJ9PvamQNe9Y5vx-8gf_JjjvGh9aYq299198Gay7tmJyTR9PcvkXNYxzcS_w=s68-c-k-c0x00ffffff-no-rj.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Yawa Skits</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                            <div class="flex items-center gap-4">
+                                <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                                <div>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Show More</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+
+                    </div>
+                </div>
+
+
+
+                <!-- Explore Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div>
+                        <p
+                            class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] px-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            Explore
+                        <p>
+                    </div>
+
+                    <!-- items under explore -->
+
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Music icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Gaming icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Gaming</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/news icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">News</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Sports Icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Sports</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+                </div>
+
+
+
+                <!-- More From Youtube Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div class="hover:bg-[#f2f2f2] px-3 rounded-lg">
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-3">More From Youtube
+                        <p>
+                    </div>
+
+
+                    <!-- items under more from utube section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube premium img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Premium</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Studio</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Kids img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Kids</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+                    <!-- Settings Section -->
+                    <div class="flex flex-col cursor-pointer">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Settings icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Settings</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Report icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Report history</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Help icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Help</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Feedback icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Send Feedback</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+
+                    <!-- About Section -->
+                    <div class="text-[13px] font-[500] pt-3 leading-[18px] text-[#606060] cursor-pointer">
+                        <a href="">About</a>
+                        <a class="ml-3" href="">Press</a>
+                        <a class="ml-3" href="">Copyright</a>
+
+                        <div>
+                            <a class="" href="">Contact Us</a>
+                            <a class="ml-3" href="">Creators</a>
+                            <a class="ml-3" href="">Advertise</a>
+                        </div>
+
+                        <div>
+                            <a class="" href="">Developers</a>
+                        </div>
+
+                        <!-- Terms and Policy Section -->
+                        <div class="text-[13px] font-[500] leading-[18px] text-[#606060] mt-4">
+                            <a href="">Terms</a>
+                            <a class="ml-3" href="">Privacy</a>
+                            <a class="ml-3" href="">Policy & Safety</a>
+
+                            <div class="mt-1">
+                                <a class="" href="">How Youtube Works</a>
+                            </div>
+
+                            <div class="mt-1">
+                                <a class="" href="">Test new features</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-[12px] font-[400] leading-[18px] text-[#909090] mt-6 pb-8">© 2025 Google LLC</p>
+                    </div>
+        </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- MAIN SECTION omo!!!🥹😩  -->
+
+
+
+
+
+        <main class="flex-2 ml-[320px] p-6 max-[1312px]:ml-[150px] max-[790px]:ml-[80px] max-[703px]:ml-[20px]">
+            <div class="flex items-center gap-4">
+                <img class="" src="./../Project Images/Second page Images/Video Imgs/Gaming red icon.webp" alt="">
+                <p class="font-[700] text-[36px] leading-[50px] text-[#0f0f0f]">Gaming</p>
+            </div>
+            <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] my-6">Featured</p>
+
+
+
+
+            <div>
+                <div
+                    class="mt-8 grid pb-5 grid-cols-5 max-[1105px]:grid-cols-4 max-[990px]:grid-cols-3 max-[740px]:grid-cols-2 max-[440px]:grid-cols-1 gap-1">
+
+                    <!-- 1st MAIN VIDEO ROW -->
+
+                    <!-- 1st video -->
+                    <div>
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Galaxies Autum img.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                        The Galaxies Autumn Showcase - World Premieres...
+                                    </p>
+                                    <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                        Galaxies Showcase
+                                    </p>
+                                    <p
+                                        class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                        98k views · <span class="text-[10px]">Streamed 2 days ago</span>
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Second Video -->
+                    <div class="max-[440px]:hidden">
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Giant hole img.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                        Giant and Small Cars vs Giant Pits- BeamNG.Drive...
+                                    </p>
+                                    <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                        BeamNG Alpha
+                                    </p>
+                                    <p class="text-[12px] leading-[18px] font-400 text-[#606060]">
+                                        34M views ·3 years ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--  Third Video-->
+                    <div class="max-[740px]:hidden">
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Unexpected img.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                        Unexpected Teamup:- Hulk & Spider-Man & Ghost Rider...
+                                    </p>
+                                    <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                        Enterzilla & Enterzillax
+                                    </p>
+                                    <p class="text-[12px] leading-[18px] font-400 text-[#606060]">
+                                        4.5M views ·1 Month ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- 4th video -->
+                    <div class="max-[990px]:hidden">
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Scary img.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                        Scary Teacher 3D VS Squid - Game Painting High Heels...
+                                    </p>
+                                    <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                        Squid Game Toons and...
+                                    </p>
+                                    <p class="text-[12px] leading-[18px] font-400 text-[#606060]">
+                                        366k views · 2 Weeks ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 5th video -->
+                    <div class="max-[1105px]:hidden">
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Teamup img.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                        The Galaxies Autumn Showcase - World Premieres...
+                                    </p>
+                                    <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                        Galaxies Showcase
+                                    </p>
+                                    <p class="text-[10px] leading-[18px] font-400 text-[#606060]">
+                                        98k views · <span class="text-[10px]">Streamed 2 days ago</span>
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-2 w-full">
+            </div>
+
+
+
+
+
+
+            <!-- Top Live games section -->
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-10">Top live games</p>
+                <p class="font-[400] text-[12px] leading-[18px] text-[#606060]">Auto-generated by Youtube</p>
+
+
+                <div
+                    class="mt-8 grid grid-cols-5 pb-5 gap-1 max-[1170px]:grid-cols-4 max-[957px]:grid-cols-3 max-[670px]:grid-cols-2 max-[456px]:grid-cols-1">
+
+                    <!-- 1st video -->
+                    <div>
+                        <img class="rounded-[8px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Roblox Img.png" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="flex-1 mt-2">
+                                <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1">
+                                    Roblox
+                                </p>
+                                <p class="text-[12px] font-[400] text-[#606060] leading-[18px]">
+                                    40k watching worldwide
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 2nd Video -->
+                    <div class="max-[456px]:hidden">
+                        <img class="rounded-[8px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Fortnite img.jpg" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="flex-1 mt-2">
+                                <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1">
+                                    Fortnite
+                                </p>
+                                <p class="text-[12px] font-[400] text-[#606060] leading-[18px]">
+                                    24k watching worldwide
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 3rd video -->
+                    <div class="max-[670px]:hidden">
+                        <img class="rounded-[8px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Clash Royale Img.jpg" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="flex-1 mt-2">
+                                <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1">
+                                    Clash Royale
+                                </p>
+                                <p class="text-[12px] font-[400] text-[#606060] leading-[18px]">
+                                    24k watching worldwide
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- 4th Video -->
+                    <div class="max-[957px]:hidden">
+                        <img class="rounded-[8px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Valorant Img.png" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="flex-1 mt-2">
+                                <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1">
+                                    Valorant
+                                </p>
+                                <p class="text-[12px] font-[400] text-[#606060] leading-[18px]">
+                                    22k watching worldwide
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 5th Video -->
+                    <div class="max-[1170px]:hidden">
+                        <img class="rounded-[8px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Call of Duty img.png" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="flex-1 mt-2">
+                                <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1">
+                                    Call of Duty: Warzone
+                                </p>
+                                <p class="text-[12px] font-[400] text-[#606060] leading-[18px]">
+                                    22k watching worldwide
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-2 w-full">
+            </div>
+
+
+
+
+
+
+            <!-- GTA RP Section-->
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-10">GTA RP</p>
+
+
+
+                <div>
+                    <div
+                        class="mt-8 grid pb-5 grid-cols-5 max-[1105px]:grid-cols-4 max-[990px]:grid-cols-3 max-[740px]:grid-cols-2 max-[440px]:grid-cols-1 gap-1">
+
+                        <!-- 1st MAIN VIDEO ROW -->
+
+                        <!-- 1st video -->
+                        <div>
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Kidnap img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            I was Kidnapped in GTA 5 | NoPixel | RP | EP#2
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Caylus
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            397k views · 1 Month ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Second Video -->
+                        <div class="max-[440px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Cassano img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Built a secret underground Casino In....
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Caylus
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            524k views · 1 Month ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!--  Third Video-->
+                        <div class="max-[740px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Brainrot img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Steal a Brainrot in GTA 5!
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Caylus
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            3.8M views · 1 Month ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- 4th video -->
+                        <div class="max-[990px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Little bro img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Trolling little Bro as a Baby in GTA 5 RP!
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Caylus
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            2.2M views · 7 Month ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- 5th video -->
+
+                        <div class="max-[1105px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Busting img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-1">
+                                            Busted 157 Myths in GTA 5!
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Caylus Top Videos
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            2.1M views · 4 Month ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <hr class="border-t border-gray-300 my-2 w-full">
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- Recommended Section-->
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-10">Recommended</p>
+                <p class="font-[400] text-[12px] leading-[18px] text-[#606060]">Based on your subscriptions and History
+                </p>
+
+
+
+                <div>
+                    <div
+                        class="mt-8 grid pb-5 grid-cols-5 max-[1105px]:grid-cols-4 max-[990px]:grid-cols-3 max-[740px]:grid-cols-2 max-[440px]:grid-cols-1 gap-1">
+
+                        <!-- 1st MAIN VIDEO ROW -->
+
+                        <!-- 1st video -->
+                        <div>
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Spiderman against img.jpg"
+                                alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Spider-Man Against Tung. Tung Tung Sahur on..
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            KeFresh
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            2.1 M views · 2 days ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Second Video -->
+                        <div class="max-[440px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Teacher img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Scary Teacher 3D VS Squid - Game Wheel Saw Hammer...
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Scary Teacher Short Family
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            77M views · 1 Year ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!--  Third Video-->
+                        <div class="max-[740px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Rescue batman.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Spider-Man rescue Batman vs Iron
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            hamed alketbi
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            593k views · 3 days ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- 4th video -->
+                        <div class="max-[990px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Door water img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Scary Teacher 3D vs Squid Game Wooden Door Water
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Caylus
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            2.2M views · 7 Month ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- 5th video -->
+
+                        <div class="max-[1105px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Spiderman against img.jpg"
+                                alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-1">
+                                            Spider-Man Against Tung. Tung Tung Sahur on..
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            KeFresh
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            2.1 M views · 2 days ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- 2nd video on recommended -->
+                    <div
+                        class="mt-8 grid pb-5 grid-cols-5 max-[1105px]:grid-cols-4 max-[990px]:grid-cols-3 max-[740px]:grid-cols-2 max-[440px]:grid-cols-1 gap-1">
+
+                        <!-- 1st MAIN VIDEO ROW -->
+
+                        <!-- 1st video -->
+                        <div>
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Kidnap img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            I was Kidnapped in GTA 5 | NoPixel | RP | EP#2
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Caylus
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            397k views · 1 Month ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Second Video -->
+                        <div class="max-[440px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Cassano img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Built a secret underground Casino In....
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Caylus
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            524k views · 1 Month ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!--  Third Video-->
+                        <div class="max-[740px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Brainrot img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Steal a Brainrot in GTA 5!
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Caylus
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            3.8M views · 1 Month ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- 4th video -->
+                        <div class="max-[990px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Little bro img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Trolling little Bro as a Baby in GTA 5 RP!
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Caylus
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            2.2M views · 7 Month ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- 5th video -->
+
+                        <div class="max-[1105px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Busting img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-1">
+                                            Busted 157 Myths in GTA 5!
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Caylus Top Videos
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            2.1M views · 4 Month ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <hr class="border-t border-gray-300 my-2 w-full">
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- SHORTS SECTION -->
+            <div class="flex gap-3 pt-9">
+                <img src="./../Project Images/Second page Images/Video Imgs/red youtube reels img.svg" alt="">
+                <p class="font-[700] text-[20px] leading-[20px] text-[#0f0f0f]">Shorts</p>
+            </div>
+
+            <!-- REELS -->
+            <div
+                class="mt-8 grid grid-cols-5 pb-5 gap-1 max-[1170px]:grid-cols-4 max-[957px]:grid-cols-3 max-[670px]:grid-cols-2 max-[456px]:grid-cols-1 ">
+
+
+                <!-- 1st video -->
+                <div>
+                    <img src="./../Project Images/Second page Images/Video Imgs/Cow vs dog img.jpg" alt="">
+                    <div class="flex gap-1 items-start w-full">
+                        <div class="flex-1">
+                            <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                Chicken, Cow cute Vs Dog Cute?Which...
+                            </p>
+                            <p class="text-[14px] font-normal text-[#606060]">
+                                132M views
+                            </p>
+                        </div>
+
+                        <!-- More icon -->
+                        <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                            alt="More options" />
+                    </div>
+                </div>
+
+
+
+
+
+                <!--2nd Video -->
+                <div class="max-[456px]:hidden">
+                    <img src="./../Project Images/Second page Images/Video Imgs/Other secret img.jpg" alt="">
+                    <div class="flex gap-3 items-start w-full">
+                        <div class="fex-1">
+                            <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                Other Secret Room Vs This One #edit...
+                            </p>
+                            <p class="text-[14px] font-normal text-[#606060]">
+                                104M views
+                            </p>
+                        </div>
+
+                        <!-- More icon -->
+                        <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                            alt="More options" />
+                    </div>
+                </div>
+
+
+                <!-- 3rd Video -->
+                <div class="max-[670px]:hidden">
+                    <img src="./../Project Images/Second page Images/Video Imgs/God img.jpg" alt="">
+                    <div class="flex gap-1 items-start w-full">
+                        <div class="fex-1">
+                            <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                Jesus Vs Satan: God wants u to watch...
+                            </p>
+                            <p class="text-[14px] font-normal text-[#606060]">
+                                8.8M views
+                            </p>
+                        </div>
+
+                        <!-- More icon -->
+                        <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                            alt="More options" />
+                    </div>
+                </div>
+
+
+                <!-- 4th video -->
+                <div class="max-[957px]:hidden">
+                    <img src="./../Project Images/Second page Images/Video Imgs/cute chicken.jpg" alt="">
+                    <div class="flex gap-1 items-start w-full">
+                        <div class="fex-1">
+                            <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                Chicken, Cow cute Vs Dog Cute?Which...
+                            <p class="text-[14px] font-normal text-[#606060]">
+                                132M views
+                            </p>
+                        </div>
+
+                        <!-- More icon -->
+                        <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                            alt="More options" />
+                    </div>
+                </div>
+
+
+
+
+                <!-- 5th Video -->
+                <div class="max-[1170px]:hidden">
+                    <img src="./../Project Images/Second page Images/Video Imgs/Asmr img.jpg" alt="">
+                    <div class="flex gap-1 items-start w-full">
+                        <div class="fex-1">
+                            <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                ASMR Treatment #asmr #3danimation
+                            </p>
+                            <p class="text-[14px] font-normal text-[#606060]">
+                                12M views
+                            </p>
+                        </div>
+
+                        <!-- More icon -->
+                        <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                            alt="More options" />
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- Trending Videos Section-->
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-10">Trending Videos</p>
+                <p class="font-[400] text-[12px] leading-[18px] text-[#606060]">Hot and Fresh</p>
+            </div>
+
+
+
+            <div>
+                <div
+                    class="mt-8 grid pb-5 grid-cols-5 max-[1105px]:grid-cols-4 max-[990px]:grid-cols-3 max-[740px]:grid-cols-2 max-[440px]:grid-cols-1 gap-1">
+
+                    <!-- 1st MAIN VIDEO ROW -->
+
+                    <!-- 1st video -->
+                    <div>
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Real Madrid.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p
+                                        class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2 uppercase">
+                                        Real Madrid 2 - 1 FC barcelona Highlights
+                                    </p>
+                                    <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1 uppercase">
+                                        Laliga EA Sports
+                                    </p>
+                                    <p
+                                        class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                        5.8M views · 1 day ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Second Video -->
+                    <div class="max-[440px]:hidden">
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Highlight Video.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                        Argentina vs Morroco Highlights | FIFA U 20 World
+                                    </p>
+                                    <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                        FIFA
+                                    </p>
+                                    <p
+                                        class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                        3.4M views · 8 days ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!--  Third Video-->
+                    <div class="max-[740px]:hidden">
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Laliga Img.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                        Real Madrid vs Barcelona | Laliga 2025/26 - El Clasico
+                                    </p>
+                                    <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                        Wavear
+                                    </p>
+                                    <p
+                                        class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                        3M views · 1 day ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- 4th video -->
+                    <div class="max-[990px]:hidden">
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Barcelona Img.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                        Real Madrid CF vs FC Barcelona | Match Highlight
+                                    </p>
+                                    <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                        SuperSport
+                                    </p>
+                                    <p
+                                        class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                        121k views · 1 day ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 5th video -->
+
+                    <div class="max-[1105px]:hidden">
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Live img.jpg" alt="">
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                        [LIVE] Real Madrid vs Barcelona La Liga 25/26 Ful
+                                    </p>
+                                    <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                        KampLeng Com
+                                    </p>
+                                    <p
+                                        class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                        1.9M views · 2 days ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="border-t border-gray-300 my-2 w-full">
+            </div>
+
+
+
+            <!-- Videos frm ur subscriptions section -->
+            <div>
+                <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f] mt-10">Videos from your subscriptions
+                </p>
+            </div>
+            <div
+                class="mt-8 grid pb-5 grid-cols-4 max-[1105px]:grid-cols-4 max-[990px]:grid-cols-3 max-[740px]:grid-cols-2 max-[440px]:grid-cols-1 gap-1">
+
+
+
+
+                <div>
+                    <!-- Main thumbnail -->
+                    <img class="rounded-lg w-full"
+                        src="./../Project Images/Second page Images/Video Imgs/Css Stretch img.jpg" alt="">
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                CSS Stretch Solves So Many Height Problems
+                                </p>
+                                <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                  Web Dev Simplified
+                                </p>
+                                <p
+                                    class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                    46k views · 3 weeks ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-t border-gray-300 my-2 w-full">
+
+
+
+
+            <!-- Last Video Part -->
+             
+                <div class="flex items-center gap-5 px-3 px-3 py-2 rounded-lg  ">
+                    <div>
+                        <img class="w-9 rounded-xl mx-auto" src="./../Project Images/Second page Images/Video Imgs/Small teacher img.jpg"
+                            alt="Shorts Icon">
+                    </div>
+                    <div>
+                    <p class="font-[700] text-[20px] leading-[28px] text-[#0f0f0f]">Scary Teacher 3D</p>
+                <p class="font-[400] text-[12px] leading-[18px] text-[#606060]">More from this game</p>
+                    </div>
+                </div>
+
+
+
+                <div>
+                    <div
+                        class="mt-2 grid pb-5 grid-cols-5 max-[1105px]:grid-cols-4 max-[990px]:grid-cols-3 max-[740px]:grid-cols-2 max-[440px]:grid-cols-1 gap-1">
+
+                        <!-- 1st MAIN VIDEO ROW -->
+
+                        <!-- 1st video -->
+                        <div>
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Teacher img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                           Scary Teacher 3D VS Squid - Game Wheel Saw Hammer...
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                               Scary Teacher Short Family
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            77M views · 1 Year ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Second Video -->
+                        <div class="max-[440px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Squid cover img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Scary Teacher 3D VS Squid - Who will have the...
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Scary Teacher Short Family
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            77M views · 1 Year ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!--  Third Video-->
+                        <div class="max-[740px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Game Honest Img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Scary Teacher 3D VS Squid Game Honest or Deceive
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                       Scary Teacher Friends
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            2M views · 1 Year ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- 4th video -->
+                        <div class="max-[990px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Draw Img.jpg" alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                            Scary Teacher Draw  vs Squid Game Drawing Squid 
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                         Squid Game Moments
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            496k views · 2 weeks ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- 5th video -->
+
+                        <div class="max-[1105px]:hidden">
+                            <!-- Main thumbnail -->
+                            <img class="rounded-lg w-full"
+                                src="./../Project Images/Second page Images/Video Imgs/Spiderman against img.jpg"
+                                alt="">
+
+
+                            <!-- Logo, text, and more icon -->
+                            <div class="flex gap-4 pt-2 items-start">
+                                <div class="flex gap-3 items w-full">
+                                    <div class="flex-1">
+                                        <p
+                                            class="text-[14px] font-[500] leading-[20px] text-[#0f0f0f] pb-1 line-clamp-1">
+                                            Scary Teacher 3D vs Squid Game Driven Wooden Bike 
+                                        </p>
+                                        <p class="text-[12px] font-[400] leading-[18px] text-[#0f0f0f] pt-1">
+                                            Scary Teacher Family
+                                        </p>
+                                        <p
+                                            class="text-[12px] leading-[18px] font-400 text-[#606060] max-[1152px]:whitespace-nowrap">
+                                            55M views · 1 Year ago
+                                        </p>
+                                    </div>
+
+                                    <!-- More icon -->
+                                    <img class="w-5 h-5"
+                                        src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                        alt="More options" />
+                                </div>
+                            </div>
+                        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class=" text-center text-gray-500 w-full mt-[px]"> &copy; 2025 YouTube Clone by Husinat Azeez</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const sideMenu = document.getElementById('sideMenu');
+        console.log();
+
+        menuIcon.addEventListener('click', () => {
+            // -translate-x-full
+            if (sideMenu.classList.contains('hidden')) {
+                sideMenu.classList.remove('hidden');
+                console.log('off');
+
+            } else {
+                sideMenu.classList.add('hidden');
+                console.log('on');
+
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>

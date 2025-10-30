@@ -1,0 +1,2498 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Youtube Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./../Project Images/Second page Images/Youtube premium img.svg">
+
+</head>
+
+
+<body class="bg-white text-[#0f0f0f] font-[Roboto,Arial,sans-serif] overflow-x-clip">
+
+    <!-- Header Start -->
+    <header
+        class="w-full px-6 pt-2 flex justify-between items-center fixed top-0 left-0 z-50 h-14 bg-white cursor-pointer">
+
+
+        <!-- Menu & YouTube logo -->
+        <div class="flex gap-5 items-center">
+            <img id="menu-icon" class="hover:bg-gray-300 rounded-full p-2 cursor-pointer"
+                src="./../Project Images/First Page Imgs/dehaze_29dp_030303_FILL0_wght400_GRAD0_opsz24.svg" alt="Menu">
+            <img class="flex-shrink-0 max-[363px]:w-[120px]" src="./../Project Images/First Page Imgs/Youtube logo.svg"
+                alt="YouTube Logo">
+
+        </div>
+
+
+        <!-- Search Bar and Icon -->
+        <div
+            class="flex justify-center items-center gap-2 w-full px-4 ml-[120px] max-[915px]:ml-[90px] max-[656px]:hidden">
+            <div class="flex items-center  w-[75%]">
+                <input type="search" placeholder="Search"
+                    class="w-full border border-[#c6c6c6] outline-none focus:border-blue-400 rounded-l-full px-4 py-2" />
+                <button class="border border-[#c6c6c6] bg-[#f8f8f8] rounded-r-full px-4 py-2 focus:border-blue-400">
+                    <img src="./../Project Images/First Page Imgs/search icon.svg" alt="Search" class="w-8 h-6">
+                </button>
+            </div>
+            <img src="./../Project Images/First Page Imgs/Mic icon.svg" alt="Mic"
+                class="bg-[#f2f2f2] rounded-full p-2 w-10 h-10" />
+        </div>
+
+
+
+        <!-- Create and search show(on md) div-->
+        <div class="flex items-center justify-center gap-4 px-8">
+            <!-- search show on md screen -->
+            <div class="max-[656px]:flex items-center justify-center gap-2 mr-[5%]">
+                <img class=" max-[428px]:w-[90px] max-[428px]:ml-[70px]"
+                    src="./../Project Images/First Page Imgs/search icon.svg" alt="">
+                <img class="max-[428px]:hidden " src="./../Project Images/First Page Imgs/Mic icon.svg" alt="">
+            </div>
+
+            <div
+                class="flex gap-1 items-center justify-center bg-[#f2f2f2] hover:bg-gray-300  rounded-full px-7 text-center max-[656px]:px-5">
+                <img src="./../Project Images/First Page Imgs/plus icon.svg" alt="">
+                <p class="text-center font-[500] text-[14px] text-[#0f0f0f] leading-[36px]">Create</p>
+            </div>
+
+            <!-- Bell Icon -->
+            <img class="max-[409px]:hidden" src="./../Project Images/Second page Images/bell icon.svg" alt="">
+            <p class="bg-[#465a65] text-[white] px-3 py-1.5 rounded-full text-center">H</p>
+        </div>
+    </header>
+
+
+
+
+
+
+    <!-- Body{Side Bar and Video Section} -->
+
+    <!-- Parent Body -->
+
+    <div class="flex pt-14">
+
+        <!-- Side bar div -->
+        <aside id="menu"
+            class="w-[290px] fixed top-14 left-0  hover:h-[calc(100vh-56px)] overflow-y-auto pl-5 mt-5 z-40 max-[1312px]:hidden">
+
+
+            <!-- Home Div -->
+            <div class="flex flex-col gap cursor-pointer">
+
+                <div class="flex items-center gap-5 bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/house icon.svg" alt="Home">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[600] text-[#0f0f0f]">Home</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-5 px-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg  ">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/download (2).svg"
+                            alt="Shorts Icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[500] text-[#0f0f0f]">Shorts</p>
+                    </div>
+                </div>
+
+
+                <div class="flex items-center gap-5 px-3 pb-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Subscription icon.svg"
+                            alt="sub icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Subscriptions</p>
+                    </div>
+                    <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-2 w-full">
+            </div>
+
+
+
+
+
+
+            <!-- You Section in side bar -->
+            <div class="px-3 cursor-pointer">
+
+                <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                    <div>
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-">You</p>
+                    </div>
+
+                    <div>
+                        <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- Items under You -->
+                <div class="flex flex-col">
+
+                    <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-5 mx-auto" src="./../Project Images/First Page Imgs/history icon.svg"
+                                alt="History icon">
+                        </div>
+
+                        <div>
+                            <a class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]" href="./../Other Pages/third.html">History</a>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/playlist icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Playlists</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/ur videos icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Your Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Watch icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Watch Later</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Like Icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Liked Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/Download icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Downloads</p>
+                        </div>
+                    </div>
+                    <hr class="border-t border-gray-300 my-2 w-full">
+                </div>
+
+
+
+
+
+                <!-- Subscription Section -->
+                <div class="px-3 cursor-pointer">
+
+                    <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                        <div>
+                            <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550]">Subscriptions
+                            <p>
+                        </div>
+
+                        <div>
+                            <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <!-- Items under Subscription Section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-4 pt-2 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/DarkCode img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px]  text-[#0f0f0f]">DarkCode</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Web dev simplify png.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Web Dev Simplifi..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/African Tales img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">African Tales by Aya</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Sqi img.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">SQI Studios..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/netninja img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Net Ninja</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/imgi_83_v9Db-cP2Hc2YmMjJ9PvamQNe9Y5vx-8gf_JjjvGh9aYq299198Gay7tmJyTR9PcvkXNYxzcS_w=s68-c-k-c0x00ffffff-no-rj.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Yawa Skits</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                            <div class="flex items-center gap-4">
+                                <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                                <div>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Show More</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+
+                    </div>
+                </div>
+
+
+
+                <!-- Explore Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div>
+                        <p
+                            class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] px-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            Explore
+                        <p>
+                    </div>
+
+                    <!-- items under explore -->
+
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Music icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Gaming icon.svg" alt="">
+                            </div>
+                            <div>
+                                  <a class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]" href="./../Other Pages/fourth.html">Gaming</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/news icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">News</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Sports Icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Sports</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+                </div>
+
+
+
+                <!-- More From Youtube Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div class="hover:bg-[#f2f2f2] px-3 rounded-lg">
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-3">More From Youtube
+                        <p>
+                    </div>
+
+
+                    <!-- items under more from utube section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube premium img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Premium</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Studio</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Kids img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Kids</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+                    <!-- Settings Section -->
+                    <div class="flex flex-col cursor-pointer">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Settings icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Settings</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Report icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Report history</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Help icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Help</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Feedback icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Send Feedback</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+
+                    <!-- About Section -->
+                    <div class="text-[13px] font-[500] pt-3 leading-[18px] text-[#606060] cursor-pointer">
+                        <a href="">About</a>
+                        <a class="ml-3" href="">Press</a>
+                        <a class="ml-3" href="">Copyright</a>
+
+                        <div>
+                            <a class="" href="">Contact Us</a>
+                            <a class="ml-3" href="">Creators</a>
+                            <a class="ml-3" href="">Advertise</a>
+                        </div>
+
+                        <div>
+                            <a class="" href="">Developers</a>
+                        </div>
+
+                        <!-- Terms and Policy Section -->
+                        <div class="text-[13px] font-[500] leading-[18px] text-[#606060] mt-4">
+                            <a href="">Terms</a>
+                            <a class="ml-3" href="">Privacy</a>
+                            <a class="ml-3" href="">Policy & Safety</a>
+
+                            <div class="mt-1">
+                                <a class="" href="">How Youtube Works</a>
+                            </div>
+
+                            <div class="mt-1">
+                                <a class="" href="">Test new features</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-[12px] font-[400] leading-[18px] text-[#909090] mt-6 pb-8">© 2025 Google LLC</p>
+                    </div>
+        </aside>
+
+
+        <!-- Aside for Medium Screen -->
+        <aside class="w-[80px]  fixed top-14 left-2 text-center mt-5 hidden max-[1312px]:block">
+            <div class="flex flex-col items-center gap-8 max-[791px]:hidden">
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/house icon.svg" alt="Home">
+                    <p class="text-[10px] leading-[14px]">Home</p>
+                </div>
+
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/reels icon.svg" alt="Shorts">
+                    <p class="text-[10px] leading-[14px]">Shorts</p>
+                </div>
+
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/Sub icon.svg" alt="Subscriptions">
+                    <p class="text-[10px] leading-[14px]">Subscriptions</p>
+                </div>
+
+                <div>
+                    <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/download.svg" alt="You">
+                    <p class="text-[10px] leading-[14px]">You</p>
+                </div>
+        </aside>
+
+
+
+
+
+
+
+
+        <!-- Aside for small screen onclick -->
+        <aside id="sideMenu"
+            class="hidden fixed top-0 left-0 h-full w-60 bg-white z- max-[790px]:transform  transition-transform duration-300 lg:hidden">
+
+
+            <!-- Home Div -->
+            <!-- <div class="flex gap-5 items-center">
+                <img id="menu-icon" class="hover:bg-gray-300 rounded-full p-2 cursor-pointer"
+                    src="./../Project Images/First Page Imgs/dehaze_29dp_030303_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt="Menu">
+                <img class="flex-shrink-0 max-[363px]:w-[120px]"
+                    src="./../Project Images/First Page Imgs/Youtube logo.svg" alt="YouTube Logo">
+
+            </div> -->
+            <div class="flex flex-col gap cursor-pointer">
+
+                <div class="flex items-center gap-5 bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/First Page Imgs/house icon.svg" alt="Home">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[600] text-[#0f0f0f]">Home</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-5 px-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg  ">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/download (2).svg"
+                            alt="Shorts Icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[500] text-[#0f0f0f]">Shorts</p>
+                    </div>
+                </div>
+
+
+                <div class="flex items-center gap-5 px-3 pb-3 hover:bg-[#f2f2f2] px-3 py-2 rounded-lg">
+                    <div>
+                        <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Subscription icon.svg"
+                            alt="sub icon">
+                    </div>
+                    <div>
+                        <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Subscriptions</p>
+                    </div>
+                    <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                    </div>
+                </div>
+                <hr class="border-t border-gray-300 my-2 w-full">
+            </div>
+
+
+
+
+
+
+            <!-- You Section in side bar -->
+            <div class="px-3 cursor-pointer">
+
+                <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                    <div>
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-">You</p>
+                    </div>
+
+                    <div>
+                        <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- Items under You -->
+                <div class="flex flex-col">
+
+                    <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-5 mx-auto" src="./../Project Images/First Page Imgs/history icon.svg"
+                                alt="History icon">
+                        </div>
+
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">History</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/playlist icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Playlists</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/ur videos icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Your Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Watch icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Watch Later</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto" src="./../Project Images/Second page Images/Like Icon.svg"
+                                alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Liked Videos</p>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-5 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                        <div>
+                            <img class="w-6 mx-auto"
+                                src="./../Project Images/Second page Images/Video Imgs/Download icon.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p class="text-[14px] leading-[20px] font-[400] text-[#0f0f0f]">Downloads</p>
+                        </div>
+                    </div>
+                    <hr class="border-t border-gray-300 my-2 w-full">
+                </div>
+
+
+
+
+
+                <!-- Subscription Section -->
+                <div class="px-3 cursor-pointer">
+
+                    <div class="flex items-center gap-1 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                        <div>
+                            <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550]">Subscriptions
+                            <p>
+                        </div>
+
+                        <div>
+                            <img class="w-6" src="./../Project Images/Second page Images/chevron right arrow.svg"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <!-- Items under Subscription Section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-4 pt-2 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/DarkCode img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px]  text-[#0f0f0f]">DarkCode</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Web dev simplify png.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Web Dev Simplifi..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/African Tales img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">African Tales by Aya</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Sqi img.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">SQI Studios..</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/netninja img.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Net Ninja</p>
+                            </div>
+                            <div class="w-1 h-1 bg-[#1b6cd8] rounded-full">
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/imgi_83_v9Db-cP2Hc2YmMjJ9PvamQNe9Y5vx-8gf_JjjvGh9aYq299198Gay7tmJyTR9PcvkXNYxzcS_w=s68-c-k-c0x00ffffff-no-rj.jpg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Yawa Skits</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 hover:bg-[#f2f2f2] py-2 rounded-lg pb-3">
+                            <div class="flex items-center gap-4">
+                                <img src="./../Project Images/Second page Images/down arrow icon.svg" alt="">
+                                <div>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Show More</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+
+                    </div>
+                </div>
+
+
+
+                <!-- Explore Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div>
+                        <p
+                            class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] px-3 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            Explore
+                        <p>
+                    </div>
+
+                    <!-- items under explore -->
+
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Music icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Gaming icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Gaming</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/news icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">News</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Sports Icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Sports</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+                </div>
+
+
+
+                <!-- More From Youtube Section -->
+
+                <div class="px-3 cursor-pointer">
+                    <div class="hover:bg-[#f2f2f2] px-3 rounded-lg">
+                        <p class="text-[17px] leading-[24px] text-[#0f0f0f] font-[550] py-3">More From Youtube
+                        <p>
+                    </div>
+
+
+                    <!-- items under more from utube section -->
+                    <div class="flex flex-col">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-1 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube premium img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Premium</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Studio</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Studio img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Music</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 pb-3 rounded-lg">
+                            <div>
+                                <img class="w-6 rounded-full"
+                                    src="./../Project Images/Second page Images/Youtube Kids img.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Youtube Kids</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+                    <!-- Settings Section -->
+                    <div class="flex flex-col cursor-pointer">
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 px-1 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Settings icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Settings</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Report icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Report history</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full" src="./../Project Images/Second page Images/Help icon.svg"
+                                    alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Help</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-6 hover:bg-[#f2f2f2] py-2 rounded-lg">
+                            <div>
+                                <img class="w-7 rounded-full"
+                                    src="./../Project Images/Second page Images/Feedback icon.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">Send Feedback</p>
+                            </div>
+                        </div>
+                        <hr class="border-t border-gray-300 my-2 w-full">
+                    </div>
+
+
+
+
+                    <!-- About Section -->
+                    <div class="text-[13px] font-[500] pt-3 leading-[18px] text-[#606060] cursor-pointer">
+                        <a href="">About</a>
+                        <a class="ml-3" href="">Press</a>
+                        <a class="ml-3" href="">Copyright</a>
+
+                        <div>
+                            <a class="" href="">Contact Us</a>
+                            <a class="ml-3" href="">Creators</a>
+                            <a class="ml-3" href="">Advertise</a>
+                        </div>
+
+                        <div>
+                            <a class="" href="">Developers</a>
+                        </div>
+
+                        <!-- Terms and Policy Section -->
+                        <div class="text-[13px] font-[500] leading-[18px] text-[#606060] mt-4">
+                            <a href="">Terms</a>
+                            <a class="ml-3" href="">Privacy</a>
+                            <a class="ml-3" href="">Policy & Safety</a>
+
+                            <div class="mt-1">
+                                <a class="" href="">How Youtube Works</a>
+                            </div>
+
+                            <div class="mt-1">
+                                <a class="" href="">Test new features</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-[12px] font-[400] leading-[18px] text-[#909090] mt-6 pb-8">© 2025 Google LLC</p>
+                    </div>
+        </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- MAIN SECTION omo!!!🥹😩  -->
+
+
+
+
+
+        <main class="flex-1 ml-[290px] p-6 max-[1312px]:ml-[100px] max-[790px]:ml-0">
+
+            <!-- First Header on Main -->
+            <div class="text-[14px] font-[550] leading-[20px] text-[#1f1f1f] space-x-[0.9rem] whitespace-nowrap">
+                <p class="bg-black inline  px-3 py-2 rounded-lg text-[#fff] ">All</p>
+                <p class="bg-[#f2f2f2] inline px-3 py-2 rounded-lg ">Nollywood</p>
+                <p class="bg-[#f2f2f2] inline px-3 py-2 rounded-lg ">Dramedy</p>
+                <p class="bg-[#f2f2f2] inline px-3 py-2 rounded-lg max-[379px]:hidden ">Music</p>
+                <p class="bg-[#f2f2f2] inline px-3 py-2 rounded-lg max-[451px]:hidden ">Live</p>
+                <p class="bg-[#f2f2f2] inline px-3 py-2 rounded-lg max-[523px]:hidden ">Watched</p>
+                <p class="bg-[#f2f2f2] inline px-3 py-2 rounded-lg max-[600px]:hidden ">Mixes</p>
+                <p class="bg-[#f2f2f2] inline px-3 py-2 rounded-lg max-[800px]:hidden ">Dolls</p>
+                <p class="bg-[#f2f2f2] inline px-3 py-2 rounded-lg max-[894px]:hidden ">Kitchens</p>
+                <p class="bg-[#f2f2f2] inline px-3 py-2 rounded-lg max-[978px]:hidden ">Recently Uploaded</p>
+                <img class="bg-red-200 px-2 py-2 rounded-full fixed right-[5px] top-[70px] hidden max-[1084px]:block"
+                    src="./../Project Images/Second page Images/side arrow icon.svg" alt="">
+            </div>
+
+
+
+
+
+
+            <!-- Video Sections in main Phew!!! -->
+
+
+            <!-- 1ST TWO MAIN VIDEOS(2 rows) AND REELS(one row)   -->
+            <div>
+                <div class="mt-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                    <!-- 1st MAIN VIDEO ROW -->
+
+                    <!-- 1st video -->
+                    <div>
+                        <!-- Main thumbnail -->
+                        <div class="relative w-full pt-[56.25%]"> <!-- 16:9 aspect ratio -->
+                            <iframe class="absolute top-0 left-0 w-full h-full rounded-xl"
+                                src="https://www.youtube.com/embed/CgyNnVFFapQ?si=O1m1GnzsaaV67fff"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                        </div>
+
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px]"
+                                src="./../Project Images/Second page Images/Video Imgs/Nivea logo.jpg" alt="" />
+
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                        Works to smoothen your skin, reducing stretchmarks in two...
+                                    </p>
+                                    <p class="text-[14px] font-semibold leading-[20px] text-[#0f0f0f]">
+                                        Sponsored · <span class="font-normal text-[#606060]">Nivea Nigeria</span>
+                                    </p>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        1.6M views · 1 year ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Second Video -->
+                    <div>
+                        <!-- Main thumbnail -->
+                        <div class="relative w-full pt-[56.25%]">
+                            <iframe class="absolute top-0 left-0 w-full h-full rounded-xl"
+                                src="https://www.youtube.com/embed/KCFIrQ-Nr_4?si=-bH4sl2xCUfiNYbd"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px]" src="./../Project Images/Second page Images/Sqi img.jpg"
+                                alt="" />
+
+                            <div class="flex gap-3 items-start w-full">
+                                <div class="flex-1">
+                                    <p class="text-[15px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                        From Art Student to Earning in Tech as a Software Engineer|SQI...
+                                    </p>
+                                    <div class="flex items-center gap-2">
+                                        <div>
+                                            <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">
+                                                SQI Studios
+                                            </p>
+                                        </div>
+
+                                        <div>
+                                            <img class="w-3.5"
+                                                src="./../Project Images/Second page Images/Video Imgs/check icon.svg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        104 views · 1 day ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--  Third Video-->
+                    <div>
+                        <!-- Main thumbnail -->
+                        <div class="relative w-full pt-[56.25%]">
+                            <iframe class="absolute top-0 left-0 w-full h-full rounded-xl"
+                                src="https://www.youtube.com/embed/KT1r1qk_SWY?si=l33RvMvRZfSeqcYA"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px]"
+                                src="./../Project Images/Second page Images/Video Imgs/Sajjad profile img.jpg" alt="" />
+
+                            <div class="flex gap-3 items-start w-full">
+                                <div class="flex-1">
+                                    <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                        Coding was hard until i learned this
+                                    </p>
+                                    <div class="flex items-center gap-2">
+                                        <div>
+                                            <p class="text-[14px] font-[400] leading-[20px] text-[#0f0f0f]">
+                                                Sajjad Khadeer
+                                            </p>
+                                        </div>
+
+                                        <div>
+                                            <img class="w-3.5"
+                                                src="./../Project Images/Second page Images/Video Imgs/check icon.svg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        368k views · 4 months ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <!-- 2ND MAIN VIDEO ROW -->
+
+                    <!-- 4th video -->
+                    <div class="mt-2">
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Unspoken scars img.jpg" alt="">
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px]"
+                                src="./../Project Images/Second page Images/Video Imgs/Biodun Stephen img.jpg" alt="" />
+
+                            <div class="flex gap-3 items-start w-full">
+                                <div class="flex-1">
+                                    <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                        Unspoken Scars - Nigerian movies 2025 Latest Full Movies
+                                    </p>
+                                    <div class="flex items-center gap-2">
+                                        <div>
+                                            <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                                Biodun Stephen TV
+                                            </p>
+                                        </div>
+
+                                        <div>
+                                            <img class="w-3.5"
+                                                src="./../Project Images/Second page Images/Video Imgs/check icon.svg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        1.7M views · 1 Month ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 5th video -->
+                    <div class="mt-2">
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/The inlaws img.jpg" alt="">
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px] h-[38px]"
+                                src="./../Project Images/Second page Images/Video Imgs/IyaboOjo profile img.jpg"
+                                alt="" />
+
+                            <div class="flex gap-3 items-start w-full">
+                                <div class="flex-1">
+                                    <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                        The Inlaws Ep 1 Starring Iyabo Ojo,Toyin Abraham, Priscilla...
+                                    </p>
+                                    <div class="flex items-center gap-2">
+                                        <div>
+                                            <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                                IyaboOjotv
+                                            </p>
+                                        </div>
+
+                                        <div>
+                                            <img class="w-3.5"
+                                                src="./../Project Images/Second page Images/Video Imgs/check icon.svg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        1.8M views · 1 Year ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 6th Video -->
+                    <div class="mt-2">
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Curse of Ajere img.jpg" alt="">
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px]"
+                                src="./../Project Images/Second page Images/Video Imgs/Ajere profile pics.jpg" alt="" />
+
+                            <div class="flex gap-3 items-start w-full">
+                                <div class="flex-1">
+                                    <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                        The Curse of Ajere - A Nollywood tale of Greed and Redemption
+                                    </p>
+                                    <div class="flex items-center gap-2">
+                                        <div>
+                                            <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                                Nollywood Passage
+                                            </p>
+                                        </div>
+
+                                        <div>
+                                            <img class="w-3.5"
+                                                src="./../Project Images/Second page Images/Video Imgs/check icon.svg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        161 views · 1 day ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                
+
+                <!--SHORT VIDEOS (REELS IN A COLUMN) -->
+                <div class="flex gap-3 pt-9">
+                    <img src="./../Project Images/Second page Images/Video Imgs/red youtube reels img.svg" alt="">
+                    <p class="font-[700] text-[20px] leading-[20px] text-[#0f0f0f]">Shorts</p>
+                </div>
+
+                <!-- REELS -->
+                <div class="mt-8 grid grid-cols-5 gap-4 max-[1123px]:grid-cols-3 max-[703px]:grid-cols-2 ">
+
+                    <!-- 1st video -->
+                    <div>
+                        <img src="./../Project Images/Second page Images/Video Imgs/Haram books 2 read img.jpg" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="fex-1">
+                                <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                    Haram books to read in Islam🙅‍♀️ #shorts...
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    740k views
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!--2nd Video -->
+                    <div>
+                        <img src="./../Project Images/Second page Images/Video Imgs/Komoniwa's short img.jpg" alt="">
+                        <div class="flex gap-3 items-start w-full">
+                            <div class="fex-1">
+                                <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                    Do your part and trust God for HIS!
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    107 views
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+
+
+                    <!-- 3rd Video -->
+                    <div class="max-[703px]:hidden">
+                        <img src="./../Project Images/Second page Images/Video Imgs/Grwm Img.jpg" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="fex-1">
+                                <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                    GRWM for my sis school....🎀✨🤍
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    50M views
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+
+
+                    <!-- 4th video -->
+                    <div class="max-[1123px]:hidden">
+                        <img src="./../Project Images/Second page Images/Video Imgs/bride img.jpg" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="fex-1">
+                                <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                    Different Nigerian brides #nigerianbrides
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    4.5M views
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 5th Video -->
+                    <div class="max-[1123px]:hidden">
+                        <img src="./../Project Images/Second page Images/Video Imgs/My new room img.jpg" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="fex-1">
+                                <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                    My new room💓🌸🌹🤍🫧 #roomdec...
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    12M views
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 2ND TWO MAIN VIDEOS (2 Rows) AND REELS (one row)   -->
+
+            <div>
+                <div class="mt-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                    <!-- 7th video -->
+                    <div>
+                        <!-- Main thumbnail -->
+                        <div class="relative w-full pt-[56.25%]">
+                        <iframe class="absolute top-0 left-0 w-full h-full rounded-xl"
+                            src="https://www.youtube.com/embed/29u0K7sdsBU?si=2Zj4fqpDJuhf6X93"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px]"
+                                src="./../Project Images/Second page Images/Video Imgs/NIY profile img.jpg" alt="" />
+
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                        Everyday Yoruba | Episode #2
+                                    </p>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                        Nínú Yàrá Ìkàwé
+                                    </p>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        500 views · 6 hours ago ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- 8th video -->
+                    <div>
+                        <!-- Main thumbnail -->
+                        <div class="relative w-full pt-[56.25%]">
+                        <iframe class="absolute top-0 left-0 w-full h-full rounded-xl"
+                            src="https://www.youtube.com/embed/ZpTbqd8yOBY?si=gzRFQTWrtjOc3Uai"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        </div>
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px]"
+                                src="./../Project Images/Second page Images/Video Imgs/Kanta profile pics.jpg" alt="" />
+
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                        Kanta (2025) New Horror Movie in Hindi 2025 | New Released...
+                                    </p>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                        Horror Cinema</p>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        6.8M views · 2 Months ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 9th Video -->
+                    <div>
+                        <!-- Main thumbnail -->
+                     <div class="relative w-full pt-[56.25%]">
+                       <iframe class="absolute top-0 left-0 w-full h-full rounded-xl"
+                            src="https://www.youtube.com/embed/f6dxvyDc88A?si=37ErKIsaHzffYr89"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     </div>
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px]"
+                                src="./../Project Images/Second page Images/Video Imgs/multido profile img.jpg"
+                                alt="" />
+
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                        Me vs Grandma Cake Decorating Challenge | Funny Moments by...
+                                    </p>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                        Multi DO Smile Indonesian
+                                    </p>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        1.7M views · 11 months ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- 10th video -->
+                    <div>
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Fierce woman img.jpg" alt="">
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px]"
+                                src="./../Project Images/Second page Images/Video Imgs/Power slap img.jpg" alt="" />
+
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                        Fierce Women's Flyweight Duel 😳| Paige VanZant vs Mikael-...
+                                    </p>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                        Power Slap
+                                    </p>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        5.5M views · 7 months ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 11th video -->
+                    <div>
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Adaku the glutton img.jpg" alt="">
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px]"
+                                src="./../Project Images/Second page Images/African Tales img.jpg" alt="" />
+
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                        Adaku the glutton |She ate the sacrifice of the gods....
+                                    </p>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                        African Tales by M
+                                    </p>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        64k views · 1 month ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- 12th video -->
+                    <div>
+                        <!-- Main thumbnail -->
+                        <img class="rounded-lg w-full"
+                            src="./../Project Images/Second page Images/Video Imgs/Kikiore Img.jpg" alt="">
+
+                        <!-- Logo, text, and more icon -->
+                        <div class="flex gap-4 pt-2 items-start">
+                            <img class="rounded-full w-[38px] h-[38px] contain"
+                                src="./../Project Images/Second page Images/Video Imgs/Kikiore Img.jpg" alt="" />
+
+                            <div class="flex gap-3 items w-full">
+                                <div class="flex-1">
+                                    <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                        KIKIORE- Latest Yoruba Movie 2025| Zainab Bakare|Yetunde....
+                                    </p>
+                                    <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                        Zainab Bakare Movie
+                                    </p>
+                                    <p class="text-[14px] font-normal text-[#606060]">
+                                        331k views · 1 year ago
+                                    </p>
+                                </div>
+
+                                <!-- More icon -->
+                                <img class="w-5 h-5"
+                                    src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                    alt="More options" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!--2ND ROW SHORT (REELS IN A COLUMN) -->
+                <div class="flex gap-3 pt-9">
+                    <img src="./../Project Images/Second page Images/Video Imgs/red youtube reels img.svg" alt="">
+                    <p class="font-[700] text-[20px] leading-[20px] text-[#0f0f0f]">Shorts</p>
+                </div>
+
+                <!-- REELS -->
+                <div class="mt-8 grid grid-cols-5 gap-4 max-[1123px]:grid-cols-3 max-[703px]:grid-cols-2 ">
+
+                    <!-- 1st video -->
+                    <div>
+                        <img src="./../Project Images/Second page Images/Video Imgs/SQI in Abj.jpg" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="fex-1">
+                                <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                    SQI in Abuja!! Because love knows no borders!
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    740k views
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 2nd Video -->
+                    <div>
+                        <img src="./../Project Images/Second page Images/Video Imgs/Kiekie img.jpg" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="fex-1">
+                                <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                    Wunmi Toriola & Kie Kie in GINGERR...
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    539k views
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 3rd video -->
+                    <div class="max-[703px]:hidden">
+                        <img src="./../Project Images/Second page Images/Video Imgs/Bimbo Ademoye img.jpg" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="fex-1">
+                                <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                    Bimbo Ademoye and Timini Egbuson are...
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    253k views
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- 4th Video -->
+                    <div class="max-[1123px]:hidden">
+                        <img src="./../Project Images/Second page Images/Video Imgs/Aspiring Dev Img.jpg" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="fex-1">
+                                <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                    Stop calling Yourself an aspiring Developer
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    1k views
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+
+
+                    <!-- 5th Video -->
+                    <div class="max-[1123px]:hidden">
+                        <img src="./../Project Images/Second page Images/Video Imgs/Cake img.jpg" alt="">
+                        <div class="flex gap-1 items-start w-full">
+                            <div class="fex-1">
+                                <p class="text-[16px] font-medium leading-[22px] text-[#0f0f0f] pb-1">
+                                    Guess the Real or Cake🤔 #viralvideo
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    1.3M views
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            
+
+
+            <div class="mt-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                <!-- 13th video -->
+                <div>
+                    <!-- Main thumbnail -->
+                   <div class="relative w-full pt-[56.25%]">
+                     <iframe class=" absolute top-0 left-0 w-full h-full rounded-xl"
+                        src="https://www.youtube.com/embed/sHDmxMrCfCw?si=l9fWuO6nq40NJf5M" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                   </div>
+
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Omar Profile Img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    Surah Ar-Rahman (Be Heaven) سورة الرحمن
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    Omar Hisham Al Arabi
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    52M views · 6 years ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- 14th Video -->
+                <div>
+                    <!-- Main thumbnail -->
+                    <div class="relative w-full pt-[56.25%]">
+                      <iframe class="absolute top-0 left-0 w-full h-full rounded-xl"
+                        src="https://www.youtube.com/embed/_Z-KkyscYbE?si=8E4zarlIH5W4L1RE" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Alabagbe Img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    Alabagbe - Nollywood Movie 2025 Drama | Anike Ami, Lanre...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    BigTiny Tv
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    671k views · 3 months ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 15th video -->
+                <div>
+                    <!-- Main thumbnail -->
+                 <div class="relative w-full pt-[56.25%]">
+                       <iframe class="absolute top-0 left-0 w-full h-full rounded-xl"
+                        src="https://www.youtube.com/embed/0WzyFaEYYrw?si=Nzt8CL9RkmnuKtfG" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Man on top img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    MAN ON TOP ; SONIA UCHE, OLUEBUBE OBIO,Latest 2025...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    Uche Nancy Update Tv
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    1.1M views · 3 days ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- 16th video -->
+
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                    <img class="rounded-lg w-full"
+                        src="./../Project Images/Second page Images/Video Imgs/Psycopath img.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Psycopath img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    The Psycopath - Yoruba 2025 Drama. Adebimpe Adedimeji...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    Mobimpe TV
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    3.6M views · 7 months ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <!-- 17th video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                    <img class="rounded-lg w-full"
+                        src="./../Project Images/Second page Images/Video Imgs/Love around img.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Love around img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    Love Around The Corner || BOLAJI OGUNMOLA DEYEMI....
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    21st Century Nollywood
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    2.9M views · 19 hours ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 18th video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                    <img class="rounded-lg w-full"
+                        src="./../Project Images/Second page Images/Video Imgs/Stars diary img.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Stars diary img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    STAR'S DIARY - UCHE MONTANA, MICHAEL DAPPA...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    Uche Montana TV
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    4.9M views · 3 Months ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 19th video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                    <img class="rounded-lg w-full"
+                        src="./../Project Images/Second page Images/Video Imgs/More than marriage img.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/More than marriage img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    MORE THAN MARRIAGE - UCHE MONTANA, RAY EMODI Latest....
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    Uche Montana TV
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    7M views · 6 Months ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 20th video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                    <img class="rounded-lg w-full"
+                        src="./../Project Images/Second page Images/Video Imgs/27 letters to you img.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/27 letters to you img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    27 Letters to you - Timini Egbuson / Ego Nwosu
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    ChinneyLove Eze TV
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    5M views · 1 month ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- 21st video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                    <img class="rounded-lg w-full"
+                        src="./../Project Images/Second page Images/Video Imgs/Dream bed img.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Dream bed img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    Which Dream Bed would you use? Ultimate Oddly Satisfying....
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    Impossible AIS
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    541k views · 5 days ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- 22nd Video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                    <img class="rounded-lg w-full"
+                        src="./../Project Images/Second page Images/Video Imgs/Coca cola img.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Coca cola img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    Increíble Mini Licuadora USB hecho con Latas de Refresco...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    UnHiro
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    24M views · 6 Years ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- 23rd video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                    <img class="rounded-lg w-full"
+                        src="./../Project Images/Second page Images/Video Imgs/Palava img.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Palava img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    POS PALAVA Episode 5 — Anti Abiba, Fisayo Abebi, Boy Fuhad...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    ANTI ABIBA
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    4.3k views · 3 days ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 24th video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                    <img class="rounded-lg w-full"
+                        src="./../Project Images/Second page Images/Video Imgs/cooking deep img.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/cooking deep img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    Yummy cooking deep fried egg recipe and eat...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    Natural Life TV
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    135k views · 1 day ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 25th video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                    <div class="relative w-full pt-[56.25%]">
+                        <iframe class="absolute top-0 left-0 w-full h-full rounded-xl"
+                        src="https://www.youtube.com/embed/WdoEU0PVZWo?si=sgjwd93bwN8H6ih8" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Chantel img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    CHANTEL Latest Yoruba Movie 2025 Iya Sebilli, Habibat Jinad....
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    LIBRA TV
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    617k views · 1 Month ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 26th video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                   <div class="relative w-full pt-[56.25%]">
+                     <iframe class="absolute top-0 left-0 w-full h-full rounded-xl"
+                        src="https://www.youtube.com/embed/_0AD2oDrd28?si=Zhn73t_wUduy1Jdv" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+                   </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Love pursuit img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    Love Pursuit - Uche Montana, TooSweet Anan, Latest 2025...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    Uche Montana TV
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    6.4M views · 5 Months ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 27th video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                  <div class="relative w-full pt-[56.25%]">
+                      <iframe class="absolute top-0 left-0 w-full h-full rounded-xl"
+                        src="https://www.youtube.com/embed/Gbd_cghF3os?si=wpPmMQ2Ckl2QeqY_" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Stars diary img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1">
+                                    FIGHT OR FLIGHT ONLINE - UCHE MONTANA, SAMUEL PER...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    Uche Montana TV
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    4.6M views · 2 weeks ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+                <!-- 28th video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+              <img class="rounded-xl" src="./../Project Images/Second page Images/Video Imgs/Healing Img.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px] h-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Healing Img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    HEALING - YORUBA MOVIE 2025 | Adebimpe Adedimeji, Lateef Adedimeji...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    Mobimpe TV
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    507k views · 2 days ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                
+                <!-- 29th video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                 <img class="rounded-xl" src="./../Project Images/Second page Images/Video Imgs/Hustle Code Img.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Stars diary img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    HUSTLE CODE - UCHE MONTANA, CHINENYE NNEBE, PHYNA OTRABOR...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                                    Uche Montana TV
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    9.6M views · 2 months ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                
+                <!-- 30th video -->
+                <div class="mt-5">
+                    <!-- Main thumbnail -->
+                   <img class="rounded-xl" src="./../Project Images/Second page Images/Video Imgs/Css Glowing Animation.jpg" alt="">
+
+                    <!-- Logo, text, and more icon -->
+                    <div class="flex gap-4 pt-2 items-start">
+                        <img class="rounded-full w-[38px]"
+                            src="./../Project Images/Second page Images/Video Imgs/Stars diary img.jpg" alt="" />
+
+                        <div class="flex gap-3 items w-full">
+                            <div class="flex-1">
+                                <p class="text-[16px] font-[500] leading-[22px] text-[#0f0f0f] pb-1 line-clamp-2">
+                                    CSS GLOWING BUTTON - How to design Glowing Button with Hover Effects...
+                                </p>
+                                <p class="text-[14px] font-[400] leading-[20px] text-[#606060]">
+                               CodingPlay
+                                </p>
+                                <p class="text-[14px] font-normal text-[#606060]">
+                                    445k views · 3 years ago
+                                </p>
+                            </div>
+
+                            <!-- More icon -->
+                            <img class="w-5 h-5" src="./../Project Images/Second page Images/Video Imgs/moreicon.svg"
+                                alt="More options" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+        </main>
+    </div>
+
+    <footer class=" text-center text-gray-500 w-full mt-[px]"> &copy; 2025 YouTube Clone by Husinat Azeez</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const sideMenu = document.getElementById('sideMenu');
+        console.log();
+
+        menuIcon.addEventListener('click', () => {
+            // -translate-x-full
+            if (sideMenu.classList.contains('hidden')) {
+                sideMenu.classList.remove('hidden');
+                console.log('off');
+
+            } else {
+                sideMenu.classList.add('hidden');
+                console.log('on');
+
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
