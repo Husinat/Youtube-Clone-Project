@@ -62,7 +62,8 @@
         <img src="./Project Images/First Page Imgs/account_circle_29dp_065FD4_FILL0_wght400_GRAD0_opsz24.svg"
           alt="Account Icon">
 
-        <p class="text-[#065fd4] font-semibold text-sm hover:underline"><a href="./Other Pages/second.html">Sign In</a></p>
+        <p class="text-[#065fd4] font-semibold text-sm hover:underline"><a href="./Other Pages/second.html">Sign In</a>
+        </p>
       </div>
     </div>
   </header>
@@ -130,8 +131,7 @@
 
 
   <!--2nd Side bar to display hidden and show onclick div -->
-  <aside id="bigMenu"
-  class="w-[290px] hidden fixed top-0 left-0 h-screen bg-white overflow-y-auto pl-5 z-50 shadow-md">
+  <aside id="bigMenu" class="w-[290px] hidden fixed top-0 left-0 h-screen bg-white overflow-y-auto pl-5 z-50 shadow-md">
 
 
     <div class="flex gap-5 items-center">
@@ -556,26 +556,26 @@
 
 
 
-<script>
-  const smallMenu = document.getElementById('smallMenu');
-  const bigMenu = document.getElementById('bigMenu');
+  <script>
+    const smallMenu = document.getElementById('smallMenu');
+    const bigMenu = document.getElementById('bigMenu');
 
-  // Select the hamburger icons
-  const headerMenuIcon = document.querySelector('header img[alt="Menu"]'); // the one in the header
-  const bigMenuIcon = document.querySelector('#bigMenu img[alt="Menu"]'); // the one inside the big sidebar
+    // Select the hamburger icons
+    const headerMenuIcon = document.querySelector('header img[alt="Menu"]'); // the one in the header
+    const bigMenuIcon = document.querySelector('#bigMenu img[alt="Menu"]'); // the one inside the big sidebar
 
-  // When header hamburger is clicked → show big sidebar
-  headerMenuIcon.addEventListener('click', () => {
-    smallMenu.classList.add('hidden');
-    bigMenu.classList.remove('hidden');
-  });
+    // When header hamburger is clicked → show big sidebar
+    headerMenuIcon.addEventListener('click', () => {
+      smallMenu.classList.add('hidden');
+      bigMenu.classList.remove('hidden');
+    });
 
-  // When hamburger inside big sidebar is clicked → go back to small sidebar
-  bigMenuIcon.addEventListener('click', () => {
-    bigMenu.classList.add('hidden');
-    smallMenu.classList.remove('hidden');
-  });
-</script>
+    // When hamburger inside big sidebar is clicked → go back to small sidebar
+    bigMenuIcon.addEventListener('click', () => {
+      bigMenu.classList.add('hidden');
+      smallMenu.classList.remove('hidden');
+    });
+  </script>
 
 
 
